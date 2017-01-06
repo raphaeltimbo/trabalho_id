@@ -1,0 +1,49 @@
+\documentclass[dsc,numbers]{coppe}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+
+\makelosymbols
+\makeloabbreviations
+
+\begin{document}
+  \title{Trabalho - Identificação de Sistemas}
+  \foreigntitle{Thesis Title}
+  \author{Raphael Timbó}{Silva}
+  \advisor{Prof.}{Daniel}{Castello}
+  
+  \department{PEM}
+  \date{01}{2017}
+
+  \keyword{Primeira palavra-chave}
+  \keyword{Segunda palavra-chave}
+  \keyword{Terceira palavra-chave}
+
+  \maketitle
+
+%  \frontmatter
+%  \include{dedic}
+%  \include{thanks}
+%  \include{resumo}
+%  \include{abstract}
+  \tableofcontents
+  \listoffigures
+  \listoftables
+  \printlosymbols
+  \printloabbreviations
+
+
+  \mainmatter
+  \include{chap01}
+  \include{chap02}
+  \include{chap03}
+  \include{chap04}
+  \include{chap05}
+
+  \backmatter
+  \bibliographystyle{coppe-unsrt}
+  \bibliography{thesis}
+
+  \appendix
+  \include{appenA}
+\end{document}
