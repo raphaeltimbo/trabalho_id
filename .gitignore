@@ -213,3 +213,5 @@ TSWLatexianTemp*
 # ide
 *.iml
 *.xml
+/thesis.lab
+/thesis.los

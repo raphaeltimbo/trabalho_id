@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.26)  6 JAN 2017 08:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.26)  6 JAN 2017 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,7 +781,7 @@ Package babel Info: Redefining portuges shorthand "|
 Package hyperref Info: Option `breaklinks' set `true' on input line 23.
 Package hyperref Info: Option `raiselinks' set `true' on input line 23.
 Package hyperref Info: Option `pageanchor' set `true' on input line 23.
- <coppe-logo.pdf, id=48, 177.463pt x 76.285pt>
+ <coppe-logo.pdf, id=56, 177.463pt x 76.285pt>
 File: coppe-logo.pdf Graphic file (type pdf)
 
 <use coppe-logo.pdf>
@@ -847,14 +847,32 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
+ (./thesis.los
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+ [3
 
-No file thesis.los.
-No file thesis.lab.
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+) (./thesis.lab
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+ [4
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2.
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 36.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 36.
-[3
+ [5
 
 ]
 \openout2 = `chap01.aux'.
@@ -978,7 +996,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 89AB75BD4D44677E46CD0375C2182C01;620.
+(rerunfilecheck)             Checksum: 8E1DF6DC572F7A2EBF65327E882C5A4C;735.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -986,10 +1004,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 8007 strings out of 493029
- 111673 string characters out of 6136233
- 223703 words of memory out of 5000000
- 11312 multiletter control sequences out of 15000+600000
+ 8017 strings out of 493029
+ 111773 string characters out of 6136233
+ 223701 words of memory out of 5000000
+ 11314 multiletter control sequences out of 15000+600000
  13138 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,8n,34p,330b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1003,10 +1021,10 @@ ype1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on thesis.pdf (11 pages, 170881 bytes).
+Output written on thesis.pdf (13 pages, 172032 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
