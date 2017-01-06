@@ -45,7 +45,7 @@ BSTDIR=$(DESTDIR)/bibtex/bst/coppe
 ISTDIR=$(DESTDIR)/makeindex/coppe
 DOCDIR=$(DESTDIR)/doc/latex/coppe
 
-TEXFLAGS  = 
+TEXFLAGS  = -shell-escape
 BIBTEXFLAGS = -terse
 IDXFLAGS = -q -s gind.ist
 GLOFLAGS = -q -s gglo.ist
