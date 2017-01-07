@@ -1,11 +1,87 @@
-\chapter{Revisão Bibliográfica}
+\chapter{Dados pseudo-experimentais}
 
-Para a análise foram observados os seguintes casos:
+\section{Resposta do sistema no tempo}
+
+Para a construção dos dados pseudo-experimentais foram observados os seguintes casos:
 
 Forçamento:
 \begin{itemize}
-	\item 
+	\item $F_0(t) = A_0 sin(2\pi f_0 t)$ 
+	(Considere $\frac{\omega_1}{2\pi} \leq f_0 \leq \frac{\omega_2}{2\pi})$ 
+	\item $F_1(t) = A_1 sin(2\pi f_1 t) + A_2 sin(2\pi f_2 t)$ 
+	(Escolha 
+	$\frac{0.8 \omega_1}{2\pi} \leq f_j \leq \frac{1.2 \omega_2}{2\pi}$ 
+	e
+	$A_2 = 2A_1$
+	;
+	$ j = 1, 2)$
+	\item $F_2(t) = $ ruído branco
 \end{itemize}
+
+Número de amostras $N$:
+\begin{itemize}
+	\item $N = 1000$
+	\item $N = 5000$
+\end{itemize}
+
+Valores para a relação entre sinal e ruído - \abbrev{SNR}{Signal to Noise Ratio} SNR (Signal to Noise Ratio):
+\begin{itemize}
+	\item $SNR = 90$
+	\item $SNR = 50$
+	\item $SNR = 10$
+\end{itemize}
+
+A \cref{fig:FRF_i2_o2_freq34} mostra a posição da frequência de excitação para a aplicação da força $F_0$, em que uma amplitude $A_0 = 1$ foi utilizada.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=1]{IMGS/FRF_i2_o2_freq34.pdf}
+	\caption{Frequência de excitação para a força $F_0$}
+	\label{fig:FRF_i2_o2_freq34}
+\end{figure}
+
+A \cref{fig:F0_1000_tempo} mostra a resposta no tempo do sistema ao aplicarmos a força $F_0$ na frequência mostrada na \cref{fig:FRF_i2_o2_freq34} para uma amostragem $N = 1000$. Podemos observar que, para $N=1000$, temos uma excitação de aproximadamente 16 segundos e ainda temos algum transiente na resposta no tempo. Também é possível observar que essa parcela apresenta mais que uma frequência de oscilação.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{IMGS/F0_1000_tempo.pdf}
+	\caption{Resposta no tempo para a força $F_0$ com $N=1000$}
+	\label{fig:F0_1000_tempo}
+\end{figure}
+
+A \cref{fig:F0_5000_tempo} mostra a resposta no tempo para $N=5000$. Neste caso, o tempo vai até aproximadamente 80 segundos e podemos observar que a parcela transiente é praticamente inexistente após os 20 segundos de excitação. Após esse tempo, é esperado que o sistema oscile apenas na frequência de excitação.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{IMGS/F0_5000_tempo.pdf}
+	\caption{Resposta no tempo para a força $F_0$ com $N=5000$}
+	\label{fig:F0_5000_tempo}
+\end{figure}
+
+Para a força $F_1$ a \cref{fig:FRF_i2_o2_freq_1_2} mostra as frequências de excitação que foram aplicadas na massa $m_2$. Podemos notar que nesse caso as forças aplicadas estão próximas as frequências naturais do sistema.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=1]{IMGS/FRF_i2_o2_freq_1_2.pdf}
+	\caption{Frequência de excitação para a força $F_1$}
+	\label{fig:FRF_i2_o2_freq_1_2}
+\end{figure}
+
+A \cref{fig:F1_5000_tempo} mostra a resposta no tempo para $F_1$ com $ A_1 = 1 $, $ A_2 = 2  $ e $ N=5000 $. Como esperado, notamos um aumento na amplitude de \SI{1e-3}{\m} para \SI{1e-2}{\m} quando comparado à força $ F_0 $.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{IMGS/F1_5000_tempo.pdf}
+	\caption{Resposta no tempo para a força $F_1$ com $N=5000$}
+	\label{fig:F1_5000_tempo}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{IMGS/F2_5000_tempo.pdf}
+	\caption{Resposta no tempo para a força $F_2$ com $N=5000$}
+	\label{fig:F2_5000_tempo}
+\end{figure}
 
 Para ilustrar a completa ades\~ao ao estilo de cita{\c c}\~oes e listagem de
 refer\^encias bibliogr\'aficas, a Tabela~\ref{tab:citation} apresenta cita{\c
