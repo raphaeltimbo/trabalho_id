@@ -1,6 +1,6 @@
-\chapter{Dados pseudo-experimentais}
+\chapter{Dados Pseudo-Experimentais}
 
-\section{Resposta do sistema no tempo}
+\section{Resposta do sistema no tempo} \label{Resposta do sistema no tempo}
 
 Para a construção dos dados pseudo-experimentais foram observados os seguintes casos:
 
@@ -36,7 +36,7 @@ A \cref{fig:FRF_i2_o2_freq34} mostra a posição da frequência de excitação p
 \begin{figure}
 	\centering
 	\includegraphics[scale=1]{IMGS/FRF_i2_o2_freq34.pdf}
-	\caption{Frequência de excitação para a força $F_0$}
+	\caption{Frequência de excitação para a força $F_0$.}
 	\label{fig:FRF_i2_o2_freq34}
 \end{figure}
 
@@ -45,7 +45,7 @@ A \cref{fig:F0_1000_tempo} mostra a resposta no tempo do sistema ao aplicarmos a
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.6]{IMGS/F0_1000_tempo.pdf}
-	\caption{Resposta no tempo para a força $F_0$ com $N=1000$}
+	\caption{Resposta no tempo para a força $F_0$ com $N=1000$.}
 	\label{fig:F0_1000_tempo}
 \end{figure}
 
@@ -54,7 +54,7 @@ A \cref{fig:F0_5000_tempo} mostra a resposta no tempo para $N=5000$. Neste caso,
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.6]{IMGS/F0_5000_tempo.pdf}
-	\caption{Resposta no tempo para a força $F_0$ com $N=5000$}
+	\caption{Resposta no tempo para a força $F_0$ com $N=5000$.}
 	\label{fig:F0_5000_tempo}
 \end{figure}
 
@@ -63,7 +63,7 @@ Para a força $F_1$ a \cref{fig:FRF_i2_o2_freq_1_2} mostra as frequências de ex
 \begin{figure}
 	\centering
 	\includegraphics[scale=1]{IMGS/FRF_i2_o2_freq_1_2.pdf}
-	\caption{Frequência de excitação para a força $F_1$}
+	\caption{Frequência de excitação para a força $F_1$.}
 	\label{fig:FRF_i2_o2_freq_1_2}
 \end{figure}
 
@@ -72,46 +72,56 @@ A \cref{fig:F1_5000_tempo} mostra a resposta no tempo para $F_1$ com $ A_1 = 1 $
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.6]{IMGS/F1_5000_tempo.pdf}
-	\caption{Resposta no tempo para a força $F_1$ com $N=5000$}
+	\caption{Resposta no tempo para a força $F_1$ com $N=5000$.}
 	\label{fig:F1_5000_tempo}
 \end{figure}
+
+O último caso de forçamento é mostrado na \cref{fig:F2_5000_tempo} onde um ruído branco com variância 1 é aplicado ao sistema.
 
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.6]{IMGS/F2_5000_tempo.pdf}
-	\caption{Resposta no tempo para a força $F_2$ com $N=5000$}
+	\caption{Resposta no tempo para a força $F_2$ com $N=5000$.}
 	\label{fig:F2_5000_tempo}
 \end{figure}
 
-Para ilustrar a completa ades\~ao ao estilo de cita{\c c}\~oes e listagem de
-refer\^encias bibliogr\'aficas, a Tabela~\ref{tab:citation} apresenta cita{\c
-c}\~oes de alguns dos trabalhos contidos na norma fornecida pela CPGP da
-COPPE, utilizando o estilo num\'erico.
+\section{Adição do ruído}
 
-\begin{table}[h]
-\caption{Exemplos de cita{\c c}\~oes utilizando o comando padr\~ao
-  \texttt{\textbackslash cite} do \LaTeX\ e
-  o comando \texttt{\textbackslash citet},
-  fornecido pelo pacote \texttt{natbib}.}
-\label{tab:citation}
-\centering
-{\footnotesize
-\begin{tabular}{|c|c|c|}
-  \hline
-  Tipo da Publica{\c c}\~ao & \verb|\cite| & \verb|\citet|\\
-  \hline
-  Livro & \cite{book-example} & \citet{book-example}\\
-  Artigo & \cite{article-example} & \citet{article-example}\\
-  Relat\'orio & \cite{techreport-example} & \citet{techreport-example}\\
-  Relat\'orio & \cite{techreport-exampleIn} & \citet{techreport-exampleIn}\\
-  Anais de Congresso & \cite{inproceedings-example} &
-    \citet{inproceedings-example}\\
-  S\'eries & \cite{incollection-example} & \citet{incollection-example}\\
-  Em Livro & \cite{inbook-example} & \citet{inbook-example}\\
-  Disserta{\c c}\~ao de mestrado & \cite{mastersthesis-example} &
-    \citet{mastersthesis-example}\\
-  Tese de doutorado & \cite{phdthesis-example} & \citet{phdthesis-example}\\
-  \hline
-\end{tabular}}
-\end{table}
+Conforme mostrado no item \ref{Resposta do sistema no tempo}, a análise será feita para três diferentes níveis de ruído ($ SNR $ = 90, 50, 10). 
+
+Temos então que o sinal utilizado para o projeto do filtro será:
+
+\begin{equation}
+y = y^{ideal} + n
+\end{equation}
+onde $ n $ representa um ruído inserido no sinal.
+
+Para calcularmos a amplitude do ruído inserido '$ n $' utilizaremos a \cref{eq:snr}.
+
+\begin{equation} \label{eq:snr}
+SNR = 20log_{10}\Bigg(\frac{A_s}{A_n}\Bigg) \rightarrow A_n = \frac{A_s}{10^{SNR/20}}
+\end{equation}
+
+Abaixo (\cref{fig:F0_noise_90}, \cref{fig:F0_noise_10} e \cref{fig:F2_noise_10}), são mostrados alguns resultados comparando o sinal puro e o sinal corrompido para um determinado nível de ruído.
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{IMGS/F0_noise_90}
+	\caption{Sinal puro e sinal corrompido para $ F_0 $ e $ SNR=90 $.}
+	\label{fig:F0_noise_90}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{IMGS/F0_noise_10}
+	\caption{Sinal puro e sinal corrompido para $ F_0 $ e $ SNR=10 $.}
+	\label{fig:F0_noise_10}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{IMGS/F2_noise_10}
+	\caption{Sinal puro e sinal corrompido para $ F_2 $ e $ SNR=10 $.}
+	\label{fig:F2_noise_10}
+\end{figure}
 

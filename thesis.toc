@@ -6,10 +6,11 @@
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Sistema utilizado}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Resposta do sistema}{2}{section.1.2}
-\contentsline {chapter}{\numberline {2}Dados pseudo-experimentais}{4}{chapter.2}
+\contentsline {chapter}{\numberline {2}Dados Pseudo-Experimentais}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Resposta do sistema no tempo}{4}{section.2.1}
-\contentsline {chapter}{\numberline {3}M\IeC {\'e}todo Proposto}{9}{chapter.3}
-\contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~o}es}{10}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{11}{chapter.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{12}{chapter*.6}
-\contentsline {chapter}{\numberline {A}Algumas Demonstra{\c c}\~oes}{13}{appendix.A}
+\contentsline {section}{\numberline {2.2}Adi\IeC {\c c}\IeC {\~a}o do ru\IeC {\'\i }do}{8}{section.2.2}
+\contentsline {chapter}{\numberline {3}Projeto do Filtro Adaptativo}{10}{chapter.3}
+\contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~o}es}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{12}{chapter.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{13}{chapter*.6}
+\contentsline {chapter}{\numberline {A}Algumas Demonstra{\c c}\~oes}{14}{appendix.A}

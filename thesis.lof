@@ -5,13 +5,17 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o de for\IeC {\c c}a e medi\IeC {\c c}\IeC {\~a}o na massa $m_2$.}}{3}{figure.1.3}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces FRF para input em $m_2$ e medi\IeC {\c c}\IeC {\~a}o em $m_2$.}}{3}{figure.1.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequ\IeC {\^e}ncia de excita\IeC {\c c}\IeC {\~a}o para a for\IeC {\c c}a $F_0$}}{5}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Resposta no tempo para a for\IeC {\c c}a $F_0$ com $N=1000$}}{5}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Resposta no tempo para a for\IeC {\c c}a $F_0$ com $N=5000$}}{6}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Frequ\IeC {\^e}ncia de excita\IeC {\c c}\IeC {\~a}o para a for\IeC {\c c}a $F_1$}}{7}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Resposta no tempo para a for\IeC {\c c}a $F_1$ com $N=5000$}}{7}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Resposta no tempo para a for\IeC {\c c}a $F_2$ com $N=5000$}}{8}{figure.2.6}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Frequ\IeC {\^e}ncia de excita\IeC {\c c}\IeC {\~a}o para a for\IeC {\c c}a $F_0$.}}{5}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Resposta no tempo para a for\IeC {\c c}a $F_0$ com $N=1000$.}}{5}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Resposta no tempo para a for\IeC {\c c}a $F_0$ com $N=5000$.}}{6}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Frequ\IeC {\^e}ncia de excita\IeC {\c c}\IeC {\~a}o para a for\IeC {\c c}a $F_1$.}}{7}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Resposta no tempo para a for\IeC {\c c}a $F_1$ com $N=5000$.}}{7}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Resposta no tempo para a for\IeC {\c c}a $F_2$ com $N=5000$.}}{8}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Sinal puro e sinal corrompido para $ F_0 $ e $ SNR=90 $.}}{9}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Sinal puro e sinal corrompido para $ F_0 $ e $ SNR=10 $.}}{9}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Sinal puro e sinal corrompido para $ F_2 $ e $ SNR=10 $.}}{9}{figure.2.9}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o utilizada no algoritmo para filtros adaptativos.}}{10}{figure.3.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

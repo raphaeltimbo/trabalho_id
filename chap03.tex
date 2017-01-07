@@ -1,1 +1,31 @@
-\chapter{Método Proposto}
+\chapter{Projeto do Filtro Adaptativo}
+
+Para identificação de sistemas com filtros adaptativos
+
+\begin{figure}[!h]
+	\centering
+	\begin{tikzpicture}[auto,>=latex']
+	\tikzstyle{block} = [draw, shape=rectangle, minimum height=3em, minimum width=3em, node distance=2cm, line width=1pt]
+	\tikzstyle{sum} = [draw, shape=circle, node distance=3cm, line width=1pt, minimum width=1.25em]
+	\tikzstyle{branch}=[fill,shape=circle,minimum size=2pt,inner sep=0pt]
+	%Creating Blocks and Connection Nodes
+	\node at (-2.5,0) (input) {$x(k)$};
+	\node [block] (sistema) {$Sistema$};
+	\node [sum, right of=sistema, label=-120:$ - $] (sum) {};
+	\node at (sum) (plus) {{\footnotesize$+$}};
+	\node at (5,0) (output) {$e(k)$};
+	\path (sistema) -- coordinate (med) (sum);
+	\path (input) -- coordinate(branch1) (sistema);
+	\node [block, below of=sistema, label={[label distance=0.6cm]3:$ y(k) $}] (filtro) {$Filtro$};
+	%Conecting Blocks
+	\begin{scope}[line width=1pt]
+	\draw[->] (input) -- (sistema);
+	\draw[->] (sistema) to node {$ d(k) $} (sum);
+	\draw[->] (sum) -- (output);
+	\draw[->] (branch1) node[branch] {-} |- (filtro);
+	\draw[->] (filtro) -| (sum);
+	\end{scope}
+	\end{tikzpicture}
+	\caption{Configuração utilizada no algoritmo para filtros adaptativos.}
+	\label{fig:config_filtro}
+\end{figure}

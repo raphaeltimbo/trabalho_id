@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.6)  7 JAN 2017 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.6)  7 JAN 2017 21:18
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1106,16 +1106,81 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 )
 runsystem(mkdir -p _minted-thesis)...executed.
 
-\@losfile=\write6
-\openout6 = `thesis.syx'.
 
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen263
+\pgfutil@tempdimb=\dimen264
 
-Writing index of symbols file thesis.syx
-\@labfile=\write7
-\openout7 = `thesis.abx'.
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-Writing index of abbreviations file thesis.abx
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen265
+\pgf@y=\dimen266
+\pgf@xa=\dimen267
+\pgf@ya=\dimen268
+\pgf@xb=\dimen269
+\pgf@yb=\dimen270
+\pgf@xc=\dimen271
+\pgf@yc=\dimen272
+\w@pgf@writea=\write6
+\r@pgf@reada=\read4
+\c@pgf@counta=\count193
+\c@pgf@countb=\count194
+\c@pgf@countc=\count195
+\c@pgf@countd=\count196
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count197
+\pgfsyssoftpath@bigbuffer@items=\count198
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -1132,46 +1197,325 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen273
+\pgfmath@count=\count199
+\pgfmath@box=\box62
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count266
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen274
+\pgf@picmaxx=\dimen275
+\pgf@picminy=\dimen276
+\pgf@picmaxy=\dimen277
+\pgf@pathminx=\dimen278
+\pgf@pathmaxx=\dimen279
+\pgf@pathminy=\dimen280
+\pgf@pathmaxy=\dimen281
+\pgf@xx=\dimen282
+\pgf@xy=\dimen283
+\pgf@yx=\dimen284
+\pgf@yy=\dimen285
+\pgf@zx=\dimen286
+\pgf@zy=\dimen287
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen288
+\pgf@path@lasty=\dimen289
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen290
+\pgf@shorten@start@additional=\dimen291
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count267
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen292
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen293
+\pgf@pt@y=\dimen294
+\pgf@pt@temp=\dimen295
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen296
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen297
+\pgf@sys@shading@range@num=\count268
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box66
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box67
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen298
+\pgf@nodesepend=\dimen299
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen300
+\pgffor@skip=\dimen301
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count269
+\pgfplotmarksize=\dimen302
+)
+\tikz@lastx=\dimen303
+\tikz@lasty=\dimen304
+\tikz@lastxsaved=\dimen305
+\tikz@lastysaved=\dimen306
+\tikzleveldistance=\dimen307
+\tikzsiblingdistance=\dimen308
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count270
+\tikznumberofchildren=\count271
+\tikznumberofcurrentchild=\count272
+\tikz@fig@count=\count273
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count274
+\pgfmatrixcurrentcolumn=\count275
+\pgf@matrix@numberofcolumns=\count276
+)
+\tikz@expandcount=\count277
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box72
+\pgfnodeparttwobox=\box73
+\pgfnodepartthreebox=\box74
+\pgfnodepartfourbox=\box75
+\pgfnodeparttwentybox=\box76
+\pgfnodepartnineteenbox=\box77
+\pgfnodeparteighteenbox=\box78
+\pgfnodepartseventeenbox=\box79
+\pgfnodepartsixteenbox=\box80
+\pgfnodepartfifteenbox=\box81
+\pgfnodepartfourteenbox=\box82
+\pgfnodepartthirteenbox=\box83
+\pgfnodeparttwelvebox=\box84
+\pgfnodepartelevenbox=\box85
+\pgfnodeparttenbox=\box86
+\pgfnodepartninebox=\box87
+\pgfnodeparteightbox=\box88
+\pgfnodepartsevenbox=\box89
+\pgfnodepartsixbox=\box90
+\pgfnodepartfivebox=\box91
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen309
+))
+\@losfile=\write7
+\openout7 = `thesis.syx'.
+
+
+Writing index of symbols file thesis.syx
+\@labfile=\write8
+\openout8 = `thesis.abx'.
+
+Writing index of abbreviations file thesis.abx
 runsystem(which pygmentize && touch thesis.aex)...executed.
 
 runsystem(rm thesis.aex)...executed.
 
- (./thesis.aux (./chap01.aux) (./chap02.aux) (./chap03.aux) (./chap04.aux) (./c
-hap05.aux)
-(./appenA.aux))
+(./thesis.aux (./chap01.aux) (./chap02.aux) (./chap03.aux) (./chap04.aux)
+(./chap05.aux) (./appenA.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 13.
+(lastpage)             ! on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count193
-\scratchdimen=\dimen263
-\scratchbox=\box61
-\nofMPsegments=\count194
-\nofMParguments=\count195
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count196
-\MPscratchDim=\dimen264
-\MPnumerator=\count197
-\makeMPintoPDFobject=\count198
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count278
+\scratchdimen=\dimen310
+\scratchbox=\box92
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen311
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1224,23 +1568,23 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 13.
+\AtBeginShipoutBox=\box93
+Package hyperref Info: Link coloring OFF on input line 18.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count199
+\c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 (./thesis.out) (./thesis.out)
-\@outlinefile=\write8
-\openout8 = `thesis.out'.
+\@outlinefile=\write9
+\openout9 = `thesis.out'.
 
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
@@ -1324,95 +1668,88 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2016/11/24 v2.7 siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count266
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+ABD: EveryShipout initializing macros
+\c__siunitx_mathsf_int=\count285
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count267
+\c__siunitx_mathtt_int=\count286
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
-Package hyperref Info: Option `breaklinks' set `true' on input line 27.
-Package hyperref Info: Option `raiselinks' set `true' on input line 27.
-Package hyperref Info: Option `pageanchor' set `true' on input line 27.
+(babel)             in language  on input line 32.
+Package hyperref Info: Option `breaklinks' set `true' on input line 32.
+Package hyperref Info: Option `raiselinks' set `true' on input line 32.
+Package hyperref Info: Option `pageanchor' set `true' on input line 32.
 
-<coppe-logo.pdf, id=60, 177.463pt x 76.285pt>
+<coppe-logo.pdf, id=67, 177.463pt x 76.285pt>
 File: coppe-logo.pdf Graphic file (type pdf)
  <use coppe-logo.pdf>
-Package pdftex.def Info: coppe-logo.pdf used on input line 27.
+Package pdftex.def Info: coppe-logo.pdf used on input line 32.
 (pdftex.def)             Requested size: 177.46255pt x 76.2848pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 32.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 32.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./coppe-logo.pdf>] (./thes
 is.toc)
-\tf@toc=\write9
-\openout9 = `thesis.toc'.
+\tf@toc=\write10
+\openout10 = `thesis.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 39.
 pdfTeX warning (ext4): destination with the same identifier (name{page.a}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34   \listoffigures
+l.39   \listoffigures
                       [1
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 39.
  (./thesis.lof)
-\tf@lof=\write10
-\openout10 = `thesis.lof'.
+\tf@lof=\write11
+\openout11 = `thesis.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 40.
  [2
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 35.
- (./thesis.lot
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 4.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 4.
-
-
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 4.
-
-)
-\tf@lot=\write11
-\openout11 = `thesis.lot'.
+(babel)             in language  on input line 40.
+ (./thesis.lot)
+\tf@lot=\write12
+\openout12 = `thesis.lot'.
 
  (./thesis.los
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 2.
- [3
+
+[3
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -1429,9 +1766,9 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 2.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 45.
  [5
 
 ]
@@ -1443,7 +1780,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
-<IMGS/sistema.pdf, id=139, 569.12625pt x 227.85126pt>
+<IMGS/sistema.pdf, id=151, 569.12625pt x 227.85126pt>
 File: IMGS/sistema.pdf Graphic file (type pdf)
  <use IMGS/sistema.pdf>
 Package pdftex.def Info: IMGS/sistema.pdf used on input line 13.
@@ -1467,7 +1804,7 @@ l.37 \end{equation*}
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
 
-<IMGS/FRF_all.pdf, id=159, 725.3411pt x 546.42229pt>
+<IMGS/FRF_all.pdf, id=172, 725.3411pt x 546.42229pt>
 File: IMGS/FRF_all.pdf Graphic file (type pdf)
  <use IMGS/FRF_all.pdf>
 Package pdftex.def Info: IMGS/FRF_all.pdf used on input line 70.
@@ -1476,13 +1813,13 @@ Package pdftex.def Info: IMGS/FRF_all.pdf used on input line 70.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<IMGS/sistemaf.pdf, id=162, 569.12625pt x 227.85126pt>
+<IMGS/sistemaf.pdf, id=175, 569.12625pt x 227.85126pt>
 File: IMGS/sistemaf.pdf Graphic file (type pdf)
  <use IMGS/sistemaf.pdf>
 Package pdftex.def Info: IMGS/sistemaf.pdf used on input line 79.
 (pdftex.def)             Requested size: 341.43437pt x 136.70137pt.
 
-<IMGS/FRF_i2_o2.pdf, id=163, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2.pdf, id=176, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2.pdf>
@@ -1490,32 +1827,32 @@ Package pdftex.def Info: IMGS/FRF_i2_o2.pdf used on input line 86.
 (pdftex.def)             Requested size: 275.65103pt x 209.02412pt.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 46.
  [2]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 46.
  [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.41   \include{chap01}
+l.46   \include{chap01}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.41   \include{chap01}
+l.46   \include{chap01}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.41   \include{chap01}
+l.46   \include{chap01}
                         <./IMGS/FRF_all.pdf> <./IMGS/sistemaf.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/sistemaf.pdf): PDF inclusion: mu
@@ -1540,14 +1877,14 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
 
-<IMGS/FRF_i2_o2_freq34.pdf, id=291, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2_freq34.pdf, id=303, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2_freq34.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2_freq34.pdf>
 Package pdftex.def Info: IMGS/FRF_i2_o2_freq34.pdf used on input line 38.
 (pdftex.def)             Requested size: 275.65103pt x 209.02412pt.
 
-<IMGS/F0_1000_tempo.pdf, id=294, 717.18562pt x 408.79349pt>
+<IMGS/F0_1000_tempo.pdf, id=306, 717.18562pt x 408.79349pt>
 File: IMGS/F0_1000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_tempo.pdf>
@@ -1587,7 +1924,7 @@ l.53
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F0_1000_tempo.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] <IMGS/F0_5000_tempo.pdf, id=418, 717.18562pt x 408.79349pt>
+>] <IMGS/F0_5000_tempo.pdf, id=430, 717.18562pt x 408.79349pt>
 File: IMGS/F0_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F0_5000_tempo.pdf>
@@ -1598,14 +1935,14 @@ Overfull \hbox (3.52335pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-<IMGS/FRF_i2_o2_freq_1_2.pdf, id=420, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2_freq_1_2.pdf, id=432, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2_freq_1_2.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2_freq_1_2.pdf>
 Package pdftex.def Info: IMGS/FRF_i2_o2_freq_1_2.pdf used on input line 65.
 (pdftex.def)             Requested size: 275.65103pt x 209.02412pt.
 
-<IMGS/F1_5000_tempo.pdf, id=422, 717.18562pt x 408.79349pt>
+<IMGS/F1_5000_tempo.pdf, id=434, 717.18562pt x 408.79349pt>
 File: IMGS/F1_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F1_5000_tempo.pdf>
@@ -1616,71 +1953,115 @@ Overfull \hbox (3.52335pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-<IMGS/F2_5000_tempo.pdf, id=423, 717.18562pt x 408.79349pt>
+<IMGS/F2_5000_tempo.pdf, id=436, 717.18562pt x 408.79349pt>
 File: IMGS/F2_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_tempo.pdf>
-Package pdftex.def Info: IMGS/F2_5000_tempo.pdf used on input line 81.
+Package pdftex.def Info: IMGS/F2_5000_tempo.pdf used on input line 83.
 (pdftex.def)             Requested size: 430.3147pt x 245.27797pt.
 
-Overfull \hbox (3.52335pt too wide) in paragraph at lines 81--82
+Overfull \hbox (3.52335pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
-}) has been already used, duplicate ignored
+(babel)             in language  on input line 88.
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.42   \include{chap02}
-                        <./IMGS/F0_5000_tempo.pdf>]
+l.88 \section
+             {Adição do ruído} <./IMGS/F0_5000_tempo.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 88.
  [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.42   \include{chap02}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{figure.2.5}) has been already used, duplicate ignored
+l.88 \section
+             {Adição do ruído}pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.42   \include{chap02}
-                        <./IMGS/FRF_i2_o2_freq_1_2.pdf> <./IMGS/F1_5000_tempo.p
-df
+l.88 \section
+             {Adição do ruído} <./IMGS/FRF_i2_o2_freq_1_2.pdf> <./IMGS/F1_50
+00_tempo.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F1_5000_tempo.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 88.
+ <IMGS/F0_noise_90.pdf, id=631, 428.43939pt x 292.79355pt>
+File: IMGS/F0_noise_90.pdf Graphic file (type pdf)
+
+<use IMGS/F0_noise_90.pdf>
+Package pdftex.def Info: IMGS/F0_noise_90.pdf used on input line 109.
+(pdftex.def)             Requested size: 257.06561pt x 175.67747pt.
+
+<IMGS/F0_noise_10.pdf, id=632, 423.96956pt x 289.05301pt>
+File: IMGS/F0_noise_10.pdf Graphic file (type pdf)
+
+<use IMGS/F0_noise_10.pdf>
+Package pdftex.def Info: IMGS/F0_noise_10.pdf used on input line 116.
+(pdftex.def)             Requested size: 254.3837pt x 173.43314pt.
+
+<IMGS/F2_noise_10.pdf, id=633, 423.96956pt x 289.05301pt>
+File: IMGS/F2_noise_10.pdf Graphic file (type pdf)
+
+<use IMGS/F2_noise_10.pdf>
+Package pdftex.def Info: IMGS/F2_noise_10.pdf used on input line 123.
+(pdftex.def)             Requested size: 254.3837pt x 173.43314pt.
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 47.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 47.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.42   \include{chap02}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{table.2.1}) has been already used, duplicate ignored
+l.47   \include{chap02}
+                        <./IMGS/F2_5000_tempo.pdf>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 47.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.42   \include{chap02}
-                        <./IMGS/F2_5000_tempo.pdf>]
+l.47   \include{chap02}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.2.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.47   \include{chap02}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.2.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.47   \include{chap02}
+                        <./IMGS/F0_noise_90.pdf> <./IMGS/F0_noise_10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F0_noise_10.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./IMGS/F2_noise_10.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F2_noise_10.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
 \openout2 = `chap03.aux'.
 
  (./chap03.tex
@@ -1689,14 +2070,20 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 43.
- [9
+(babel)             in language  on input line 48.
+ [10
 
 
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.48   \include{chap03}
+                       ]
 \openout2 = `chap04.aux'.
 
  (./chap04.tex
@@ -1705,10 +2092,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 44.
- [10
+(babel)             in language  on input line 49.
+ [11
 
 
 
@@ -1721,10 +2108,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 50.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
- [11
+(babel)             in language  on input line 50.
+ [12
 
 
 
@@ -1733,10 +2120,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
- [12
+(babel)             in language  on input line 57.
+ [13
 
 
 
@@ -1749,38 +2136,34 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
- [13
+(babel)             in language  on input line 57.
+ [14
 
 
 ] 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+(babel)             in language  on input line 58.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 (./thesis.aux (./chap01.aux) (./chap02.aux) (./chap03.aux) (./chap04.aux)
 (./chap05.aux) (./appenA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AA59C98880AB4ADD75E8764E2DC2D7DB;829.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+(rerunfilecheck)             Checksum: 75E97D426942C4C358825D4A31FEC3AC;910.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 22232 strings out of 493013
- 421568 string characters out of 6135682
- 543549 words of memory out of 5000000
- 25379 multiletter control sequences out of 15000+600000
- 16565 words of font info for 64 fonts, out of 8000000 for 9000
+ 34112 strings out of 493013
+ 698416 string characters out of 6135682
+ 807191 words of memory out of 5000000
+ 37000 multiletter control sequences out of 15000+600000
+ 16219 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,17n,35p,10378b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,17n,67p,10378b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -1791,14 +2174,12 @@ type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (19 pages, 634309 bytes).
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on thesis.pdf (20 pages, 650990 bytes).
 PDF statistics:
- 799 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 56 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 926 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
