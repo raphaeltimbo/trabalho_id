@@ -12,6 +12,7 @@
 \contentsline {section}{\numberline {3.1}Algoritmo LMS}{10}{section.3.1}
 \contentsline {section}{\numberline {3.2}Implementa\IeC {\c c}\IeC {\~a}o do filtro}{12}{section.3.2}
 \contentsline {chapter}{\numberline {4}Resultados e Discuss\IeC {\~o}es}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Resultados para $ F_0 $}{14}{section.4.1}
 \contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{15}{chapter.5}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{16}{chapter*.7}
 \contentsline {chapter}{\numberline {A}Algumas Demonstra{\c c}\~oes}{17}{appendix.A}

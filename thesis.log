@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.6)  7 JAN 2017 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.6)  7 JAN 2017 23:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1695,7 +1695,7 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 32.
 Package hyperref Info: Option `raiselinks' set `true' on input line 32.
 Package hyperref Info: Option `pageanchor' set `true' on input line 32.
 
-<coppe-logo.pdf, id=71, 177.463pt x 76.285pt>
+<coppe-logo.pdf, id=75, 177.463pt x 76.285pt>
 File: coppe-logo.pdf Graphic file (type pdf)
  <use coppe-logo.pdf>
 Package pdftex.def Info: coppe-logo.pdf used on input line 32.
@@ -1770,7 +1770,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
-<IMGS/sistema.pdf, id=150, 569.12625pt x 227.85126pt>
+<IMGS/sistema.pdf, id=157, 569.12625pt x 227.85126pt>
 File: IMGS/sistema.pdf Graphic file (type pdf)
  <use IMGS/sistema.pdf>
 Package pdftex.def Info: IMGS/sistema.pdf used on input line 13.
@@ -1794,7 +1794,7 @@ l.37 \end{equation*}
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
 
-<IMGS/FRF_all.pdf, id=170, 725.3411pt x 546.42229pt>
+<IMGS/FRF_all.pdf, id=177, 725.3411pt x 546.42229pt>
 File: IMGS/FRF_all.pdf Graphic file (type pdf)
  <use IMGS/FRF_all.pdf>
 Package pdftex.def Info: IMGS/FRF_all.pdf used on input line 70.
@@ -1803,13 +1803,13 @@ Package pdftex.def Info: IMGS/FRF_all.pdf used on input line 70.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<IMGS/sistemaf.pdf, id=173, 569.12625pt x 227.85126pt>
+<IMGS/sistemaf.pdf, id=180, 569.12625pt x 227.85126pt>
 File: IMGS/sistemaf.pdf Graphic file (type pdf)
  <use IMGS/sistemaf.pdf>
 Package pdftex.def Info: IMGS/sistemaf.pdf used on input line 79.
 (pdftex.def)             Requested size: 341.43437pt x 136.70137pt.
 
-<IMGS/FRF_i2_o2.pdf, id=174, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2.pdf, id=181, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2.pdf>
@@ -1867,14 +1867,14 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
 
-<IMGS/FRF_i2_o2_freq34.pdf, id=303, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2_freq34.pdf, id=310, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2_freq34.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2_freq34.pdf>
 Package pdftex.def Info: IMGS/FRF_i2_o2_freq34.pdf used on input line 38.
 (pdftex.def)             Requested size: 275.65103pt x 209.02412pt.
 
-<IMGS/F0_1000_tempo.pdf, id=306, 717.18562pt x 408.79349pt>
+<IMGS/F0_1000_tempo.pdf, id=313, 717.18562pt x 408.79349pt>
 File: IMGS/F0_1000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_tempo.pdf>
@@ -1914,7 +1914,7 @@ l.53
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F0_1000_tempo.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] <IMGS/F0_5000_tempo.pdf, id=429, 717.18562pt x 408.79349pt>
+>] <IMGS/F0_5000_tempo.pdf, id=436, 717.18562pt x 408.79349pt>
 File: IMGS/F0_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F0_5000_tempo.pdf>
@@ -1925,14 +1925,14 @@ Overfull \hbox (3.52335pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-<IMGS/FRF_i2_o2_freq_1_2.pdf, id=431, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2_freq_1_2.pdf, id=438, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2_freq_1_2.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2_freq_1_2.pdf>
 Package pdftex.def Info: IMGS/FRF_i2_o2_freq_1_2.pdf used on input line 65.
 (pdftex.def)             Requested size: 275.65103pt x 209.02412pt.
 
-<IMGS/F1_5000_tempo.pdf, id=433, 717.18562pt x 408.79349pt>
+<IMGS/F1_5000_tempo.pdf, id=440, 717.18562pt x 408.79349pt>
 File: IMGS/F1_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F1_5000_tempo.pdf>
@@ -1943,7 +1943,7 @@ Overfull \hbox (3.52335pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-<IMGS/F2_5000_tempo.pdf, id=435, 717.18562pt x 408.79349pt>
+<IMGS/F2_5000_tempo.pdf, id=442, 717.18562pt x 408.79349pt>
 File: IMGS/F2_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_tempo.pdf>
@@ -1989,21 +1989,21 @@ n: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 88.
- <IMGS/F0_noise_90.pdf, id=629, 428.43939pt x 292.79355pt>
+ <IMGS/F0_noise_90.pdf, id=636, 428.43939pt x 292.79355pt>
 File: IMGS/F0_noise_90.pdf Graphic file (type pdf)
 
 <use IMGS/F0_noise_90.pdf>
 Package pdftex.def Info: IMGS/F0_noise_90.pdf used on input line 109.
 (pdftex.def)             Requested size: 257.06561pt x 175.67747pt.
 
-<IMGS/F0_noise_10.pdf, id=630, 423.96956pt x 289.05301pt>
+<IMGS/F0_noise_10.pdf, id=637, 423.96956pt x 289.05301pt>
 File: IMGS/F0_noise_10.pdf Graphic file (type pdf)
 
 <use IMGS/F0_noise_10.pdf>
 Package pdftex.def Info: IMGS/F0_noise_10.pdf used on input line 116.
 (pdftex.def)             Requested size: 254.3837pt x 173.43314pt.
 
-<IMGS/F2_noise_10.pdf, id=631, 423.96956pt x 289.05301pt>
+<IMGS/F2_noise_10.pdf, id=638, 423.96956pt x 289.05301pt>
 File: IMGS/F2_noise_10.pdf Graphic file (type pdf)
 
 <use IMGS/F2_noise_10.pdf>
@@ -2137,6 +2137,31 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+<IMGS/F0_1000_90_conv.pdf, id=889, 633.42899pt x 413.3574pt>
+File: IMGS/F0_1000_90_conv.pdf Graphic file (type pdf)
+
+<use IMGS/F0_1000_90_conv.pdf>
+Package pdftex.def Info: IMGS/F0_1000_90_conv.pdf used on input line 9.
+(pdftex.def)             Requested size: 443.39726pt x 289.3482pt.
+
+Overfull \hbox (16.60591pt too wide) in paragraph at lines 9--10
+ [][] 
+ []
+
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 49.
@@ -2146,7 +2171,13 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 
-]
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.49   \include{chap04}
+                        <./IMGS/F0_1000_90_conv.pdf>]
 \openout2 = `chap05.aux'.
 
  (./chap05.tex
@@ -2200,17 +2231,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9FAB6FEFB40F772C5DE520D1B762DBE4;989.
+(rerunfilecheck)             Checksum: 5869E8ADB554EDA2A81EDB62AC29F5BB;1059.
 runsystem(rm thesis.pyg)...executed.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 34346 strings out of 493013
- 703193 string characters out of 6135682
+ 34364 strings out of 493013
+ 703534 string characters out of 6135682
  808191 words of memory out of 5000000
- 37193 multiletter control sequences out of 15000+600000
- 16387 words of font info for 64 fonts, out of 8000000 for 9000
+ 37207 multiletter control sequences out of 15000+600000
+ 18109 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,67p,10378b,953s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
@@ -2226,10 +2257,10 @@ s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (22 pages, 671332 bytes).
+Output written on thesis.pdf (22 pages, 719964 bytes).
 PDF statistics:
- 965 PDF objects out of 1000 (max. 8388607)
- 476 compressed objects within 5 object streams
- 73 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1043 PDF objects out of 1200 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
