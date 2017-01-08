@@ -16,27 +16,27 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o utilizada no algoritmo para filtros adaptativos.\relax }}{9}{figure.caption.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_0 $, $ N=1000 $ e $ SNR=90 $.\relax }}{13}{figure.caption.20}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_0 $, $ N=1000 $ e $ SNR=10 $.\relax }}{14}{figure.caption.21}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces FRF do filtro obtido para $ F=F_0 $, $ N=1000 $ e $ SNR=90 $.\relax }}{15}{figure.caption.22}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces FRF do filtro obtido para $ F=F_0 $, $ N=1000 $ e $ SNR=10 $.\relax }}{15}{figure.caption.23}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Predi\IeC {\c c}\IeC {\~a}o do filtro obtido com $ F=F_0 $, $ N=1000 $ e $ SNR=90 $.\relax }}{16}{figure.caption.24}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_1 $, $ N=1000 $ e $ SNR=90 $.\relax }}{17}{figure.caption.25}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{18}{figure.caption.26}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{18}{figure.caption.27}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{19}{figure.caption.28}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces FRF do filtro obtido para $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{20}{figure.caption.29}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Predi\IeC {\c c}\IeC {\~a}o do filtro obtido com $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{20}{figure.caption.30}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=1000 $ e $ SNR=90 $.\relax }}{21}{figure.caption.31}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=1000 $ e $ SNR=50 $.\relax }}{22}{figure.caption.32}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=1000 $ e $ SNR=10 $.\relax }}{22}{figure.caption.33}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=5000 $ e $ SNR=90 $.\relax }}{23}{figure.caption.34}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=5000 $ e $ SNR=50 $.\relax }}{23}{figure.caption.35}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=5000 $ e $ SNR=10 $.\relax }}{24}{figure.caption.36}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces FRF do filtro obtido para $ F=F_2 $, $ N=5000 $ e $ SNR=90 $.\relax }}{24}{figure.caption.37}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces FRF do filtro obtido para $ F=F_2 $, $ N=5000 $ e $ SNR=50 $.\relax }}{25}{figure.caption.38}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces FRF do filtro obtido para $ F=F_2 $, $ N=5000 $ e $ SNR=10 $.\relax }}{25}{figure.caption.39}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Predi\IeC {\c c}\IeC {\~a}o do filtro obtido com $ F=F_2 $, $ N=5000 $ e $ SNR=90 $.\relax }}{26}{figure.caption.40}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Predi\IeC {\c c}\IeC {\~a}o do filtro obtido com $ F=F_2 $, $ N=5000 $ e $ SNR=10 $.\relax }}{27}{figure.caption.41}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_0 $, $ N=1000 $ e $ SNR=90 $.\relax }}{12}{figure.caption.20}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_0 $, $ N=1000 $ e $ SNR=10 $.\relax }}{13}{figure.caption.21}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces FRF do filtro obtido para $ F=F_0 $, $ N=1000 $ e $ SNR=90 $.\relax }}{14}{figure.caption.22}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces FRF do filtro obtido para $ F=F_0 $, $ N=1000 $ e $ SNR=10 $.\relax }}{14}{figure.caption.23}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Predi\IeC {\c c}\IeC {\~a}o do filtro obtido com $ F=F_0 $, $ N=1000 $ e $ SNR=90 $.\relax }}{15}{figure.caption.24}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_1 $, $ N=1000 $ e $ SNR=90 $.\relax }}{16}{figure.caption.25}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{17}{figure.caption.26}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{17}{figure.caption.27}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{18}{figure.caption.28}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces FRF do filtro obtido para $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{19}{figure.caption.29}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Predi\IeC {\c c}\IeC {\~a}o do filtro obtido com $ F=F_1 $, $ N=1000 $ e $ SNR=10 $.\relax }}{19}{figure.caption.30}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=1000 $ e $ SNR=90 $.\relax }}{20}{figure.caption.31}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=1000 $ e $ SNR=50 $.\relax }}{21}{figure.caption.32}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=1000 $ e $ SNR=10 $.\relax }}{21}{figure.caption.33}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=5000 $ e $ SNR=90 $.\relax }}{22}{figure.caption.34}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=5000 $ e $ SNR=50 $.\relax }}{22}{figure.caption.35}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Evolu\IeC {\c c}\IeC {\~a}o do filtro para $ F=F_2 $, $ N=5000 $ e $ SNR=10 $.\relax }}{23}{figure.caption.36}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces FRF do filtro obtido para $ F=F_2 $, $ N=5000 $ e $ SNR=90 $.\relax }}{23}{figure.caption.37}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces FRF do filtro obtido para $ F=F_2 $, $ N=5000 $ e $ SNR=50 $.\relax }}{24}{figure.caption.38}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces FRF do filtro obtido para $ F=F_2 $, $ N=5000 $ e $ SNR=10 $.\relax }}{24}{figure.caption.39}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Predi\IeC {\c c}\IeC {\~a}o do filtro obtido com $ F=F_2 $, $ N=5000 $ e $ SNR=90 $.\relax }}{25}{figure.caption.40}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Predi\IeC {\c c}\IeC {\~a}o do filtro obtido com $ F=F_2 $, $ N=5000 $ e $ SNR=10 $.\relax }}{25}{figure.caption.41}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

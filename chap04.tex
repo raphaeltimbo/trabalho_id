@@ -12,7 +12,7 @@ Os resultados da adaptação do filtro para uma força $F_0(t) = A_0 sin(2\pi f_
 	\label{fig:F0_1000_90_conv}
 \end{figure}
 
-Para o caso do seno puro podemos o filtro tem uma convergência rápida e com menos de 100 iterações o erro já é próximo de zero. 
+Para o caso do seno puro o filtro tem uma convergência rápida e com menos de 100 iterações o erro já se aproxima de zero. 
 
 Na \cref{fig:F0_1000_10_conv} são apresentados os resultados para $ N=1000 $ e $ SNR=10 $. Podemos observar que, mesmo com um nível de ruído mais elevado, o algoritmo apresentou uma convergência rápida.
 
@@ -27,7 +27,7 @@ Na \cref{fig:F0_1000_10_conv} são apresentados os resultados para $ N=1000 $ e 
 
 Na \cref{fig:F0_1000_90_FRF_med_False} é apresentada a FRF do filtro obtido com $ SNR=90 $ considerando o último vetor de coeficientes, e na \cref{fig:F0_1000_90_FRF_med_True} é apresentada a FRF considerando o vetor obtido através do valor esperado dos coeficientes tomando por base as observações da segunda metade do vetor de dados. A \cref{fig:F0_1000_10_FRF} apresenta os resultados para $ SNR=10 $. 
 
-Podemos observar que FRF do filtro obtido não apresenta bons resultados, aproximando-se do valor esperado apenas na frequência de excitação (\SI{34}{\radian \per \s}). Podemos notar um aumento na amplitude próxima à primeira frequência natural do sistema, mas o valor não se aproxima do esperado. Outro ponto importante é que, para este caso, a FRF do filtro não se mostrou sensível ao nível de ruído. A utilização do último vetor de coeficientes $ w $ ou do valor esperado para a segunda metade do vetor de dados também não teve impacto significativo na resposta. 
+Podemos observar que a FRF do filtro obtido não apresenta bons resultados, aproximando-se do valor esperado apenas na frequência de excitação (\SI{34}{\radian \per \s}). Podemos notar um aumento na amplitude próxima à primeira frequência natural do sistema, mas o valor não se aproxima do esperado. Outro ponto importante é que, para este caso, a FRF do filtro não se mostrou sensível ao nível de ruído. A utilização do último vetor de coeficientes ou do valor esperado para a segunda metade do vetor de dados também não teve impacto significativo na resposta. 
 
 \begin{figure}
 	\centering
@@ -108,7 +108,7 @@ Na \cref{fig:F1_1000_10_conv} são apresentados os resultados para $ N=1000 $ e 
 	\label{fig:F1_1000_10_conv}
 \end{figure}
 
-Podemos tentar melhorar a adaptação aumentando o valor do fator de convergência de $ \mu=0.001 $ para $ \mu=0.003 $ o que por sua vez deve aumentar a velocidade de convergência do algoritmo. A \cref{fig:F1_1000_10_mu_003_conv} mostra que, quando utilizamos $ \mu = 0.003 $, o valor de saída do filtro tende a variar mais rapidamente tentando acompanhar o valor desejado, no entanto, as variações bruscas nos valores dos coeficientes do filtro não permitem a convergência e consequente minimização do erro após decorridas várias iterações. 
+Podemos tentar melhorar a adaptação aumentando o valor do fator de convergência de $ \mu=0.001 $ para $ \mu=0.003 $ o que por sua vez deve aumentar a velocidade de convergência do algoritmo. A \cref{fig:F1_1000_10_mu_003_conv} mostra que, quando utilizamos $ \mu = 0.003 $, o valor de saída do filtro tende a variar mais rapidamente tentando acompanhar o valor desejado. No entanto, as variações bruscas nos valores dos coeficientes do filtro não permitem a convergência e consequente minimização do erro mesmo após várias iterações. 
 
 Conforme \citet{diniz1997adaptive}, o valor de $ \mu $ deve ser escolhido no intervalo mostrado na \cref{eq:mu}
 
@@ -147,7 +147,7 @@ A \cref{fig:F1_1000_10_mu_002_FRF_med_False} mostra os resultados obtidos com $ 
 
 \subsection{Predição}
 
-Para a predição iremos utilizar a mesma força utilizada em $ F=F_0 $ e descrita na \ref{eq:F_3}. Os resultados da predição são apresentados na \cref{fig:F1_1000_10_mu_002_pred} e mostram uma melhora, mas podemos ver que este filtro também não foi capaz de prever de maneira precisa o comportamento do sistema para uma força diferente da utilizada no processo de adaptação.
+Para a predição iremos utilizar a mesma força utilizada em $ F=F_0 $ e descrita na \cref{eq:F_3}. Os resultados da predição são apresentados na \cref{fig:F1_1000_10_mu_002_pred} e mostram uma melhora, mas podemos ver que este filtro também não foi capaz de prever de maneira precisa o comportamento do sistema para uma força diferente da utilizada no processo de adaptação.
 
 \begin{figure}[h]
 	\centering
@@ -163,7 +163,7 @@ Os resultados da adaptação do filtro para uma força $ F_2 $ (ruído branco) c
 
 A convergência só pode ser obtida para uma amostragem com $ N= $ 5000 e um filtro com 1800 coeficientes. Os resultados da adaptação para $ N= $ 5000 são mostrados na \cref{fig:F2_5000_90_conv}, \cref{fig:F2_5000_50_conv} e \cref{fig:F2_5000_10_conv} para $ SNR = $ 90, 50 e 10  respectivamente. Podemos observar que, mesmo para um nível de ruído elevado ($ SNR=10 $) o filtro apresentou uma boa convergência após aproximadamente 1600 iterações.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.7]{F2_1000_90_conv}
 	\caption{Evolução do filtro para $ F=F_2 $, $ N=1000 $ e $ SNR=90 $.}
@@ -215,7 +215,7 @@ Para a análise das FRFs iremos utilizar os filtros obtidos com $ N=5000 $, já 
 	\label{fig:F2_5000_90_FRF_med_False}
 \end{figure}
 
-A \cref{fig:F2_5000_90_FRF_med_False} mostra que para $ SNR=90 $ a FRF do filtro apresenta excelentes resultados quando comparada à FRF real do sistema. Os três picos referente às frequências naturas foram capturados, além disso a queda na amplitude devido o fenômeno de anti-ressonância também é claramente observado. Outro ponto importante é que, mesmo nas frequências mais elevadas e distantes das frequências naturais, a FRF do filtro reproduziu com exatidão os valores de amplitude esperados.
+A \cref{fig:F2_5000_90_FRF_med_False} mostra que, para $ SNR=90 $, a FRF do filtro apresenta excelentes resultados quando comparada à FRF real do sistema. Os três picos referente às frequências naturas foram capturados, além disso a queda na amplitude devido o fenômeno de anti-ressonância também é claramente observado. Outro ponto importante é que, mesmo nas frequências mais elevadas e distantes das frequências naturais, a FRF do filtro reproduziu com exatidão os valores de amplitude esperados.
 
 \begin{figure}
 	\centering
@@ -224,7 +224,7 @@ A \cref{fig:F2_5000_90_FRF_med_False} mostra que para $ SNR=90 $ a FRF do filtro
 	\label{fig:F2_5000_50_FRF_med_False}
 \end{figure}
 
-A \cref{fig:F2_5000_50_FRF_med_False} mostra que, para $ SNR=50 $, os resultados ainda são satisfatórios. No entanto, ao aumentarmos o nível de ruído no sinal, podemos notar que para frequências mais elevadas a FRF do filtro apresenta uma maior variação, diferindo um pouco dos valores esperados quando comparamos com a FRF do sistema.
+A \cref{fig:F2_5000_50_FRF_med_False} mostra que, para $ SNR=50 $, os resultados ainda são satisfatórios. No entanto, ao aumentarmos o nível de ruído no sinal, podemos notar que, para frequências mais elevadas, a FRF do filtro apresenta uma maior variação, diferindo um pouco dos valores esperados quando comparamos com a FRF do sistema.
 
 \begin{figure}
 	\centering
@@ -237,18 +237,18 @@ A \cref{fig:F2_5000_10_FRF_med_False} apresenta a FRF para nível de ruído com 
 
 \subsection{Predição}
 
-Para a predição iremos utilizar a mesma força utilizada em $ F=F_0 $ e descrita na \ref{eq:F_3}. Os resultados da predição são apresentados na \cref{fig:F2_5000_90_pred} e na \cref{fig:F2_5000_10_pred}, para $ SNR= $ 90 e 10 respectivamente. Os resultados mostram que, para $ SNR=10 $, o filtro obtido é capaz de prever com grande exatidão a resposta do sistema.
+Para a predição iremos utilizar a mesma força utilizada em $ F=F_0 $ e descrita na \cref{eq:F_3}. Os resultados da predição são apresentados na \cref{fig:F2_5000_90_pred} e na \cref{fig:F2_5000_10_pred}, para $ SNR= $ 90 e 10 respectivamente. Os resultados mostram que, para $ SNR=10 $, o filtro obtido é capaz de prever com grande exatidão a resposta do sistema.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.7]{F2_5000_90_pred}
+	\includegraphics[scale=0.6]{F2_5000_90_pred}
 	\caption{Predição do filtro obtido com $ F=F_2 $, $ N=5000 $ e $ SNR=90 $.}
 	\label{fig:F2_5000_90_pred}
 \end{figure}  
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.7]{F2_5000_10_pred}
+	\includegraphics[scale=0.6]{F2_5000_10_pred}
 	\caption{Predição do filtro obtido com $ F=F_2 $, $ N=5000 $ e $ SNR=10 $.}
 	\label{fig:F2_5000_10_pred}
 \end{figure}

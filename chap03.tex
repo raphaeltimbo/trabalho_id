@@ -1,10 +1,10 @@
 \chapter{Projeto do Filtro Adaptativo}
 
-Para o algoritmo do filtro adaptativo \citet{castello2005experimental} apresentam algumas opções que podem ser utilizadas. No caso do presente trabalho o algoritmo \abbrev{LMS}{Least Mean Squares} LMS (Least Mean Squares) foi escolhido.
+Para o algoritmo do filtro adaptativo \citet{castello2005experimental} apresentam algumas opções que podem ser utilizadas. No caso do presente trabalho, o algoritmo \abbrev{LMS}{Least Mean Squares} LMS (Least Mean Squares) foi escolhido.
 
 \section{Algoritmo LMS}
 
-Como mostrado por \citet{diniz1997adaptive}, a configuração normalmente aplicada para identificação de sistemas com filtros adaptativos é mostrada na \cref{fig:config_filtro}. Nesta configuração temos que $ x(k) $ é o sinal de entrada, o sinal de saída do sistema que desejamos identificar é $ d(k) $ e a saída do filtro é $ y(k) $. Estes sinais são comparados e o erro $ e(k) $ é calculado. 
+Como mostrado por \citet{diniz1997adaptive}, a configuração normalmente aplicada para identificação de sistemas com filtros adaptativos é mostrada na \cref{fig:config_filtro}. Nesta configuração, temos que $ x(k) $ é o sinal de entrada, o sinal de saída do sistema que desejamos identificar é $ d(k) $ e a saída do filtro é $ y(k) $. Estes sinais são comparados e o erro $ e(k) $ é calculado. 
  
 \begin{figure}[h]
 	\centering
@@ -66,7 +66,6 @@ onde $p = E[d(k){\bf x}(k)]$ é o vetor de correlação cruzada entre o sinal de
 Se ${\bf p}$ e ${\bf R}$ são conhecidos, podemos encontrar a solução para ${\bf w}$ que minimiza $\xi$.
 
 O gradiente do MSE relativo aos coeficientes é:
-
 \begin{equation}
 {\bf g_w} = \frac{\partial \xi}{\partial {\bf w}} = 
 \Bigg[\frac{\partial \xi}{\partial {w_0}}
@@ -75,61 +74,48 @@ O gradiente do MSE relativo aos coeficientes é:
 \Bigg] = -2{\bf p} + 2{\bf Rw}
 \end{equation}
 
-Igualando o gradiente a zero encontramos o vetor de coeficientes que minimiza $\xi$:
-
+Igualando o gradiente a zero, encontramos o vetor de coeficientes que minimiza $\xi$:
 \begin{equation}
 {\bf w}_0 = {\bf R}^{-1}{\bf p}
 \end{equation}
 
 Se boas estimativas ${\bf \hat{p}}$ e ${\bf \hat{R}}$ estão disponíveis podemos buscar uma solução:
-
 \begin{align}
 {\bf w}(k+1) & = {\bf w}(k) - \mu {\bf \hat{g}_w}(k) \\
 & = {\bf w}(k) + 2 \mu ({\bf \hat{p}}(k) - {\bf \hat{R}}(k){\bf w}(k))
 \end{align}
-
 para $k = 0, 1, 2,...,$ onde ${\bf \hat{g}_w}(k)$ representa uma estimativa do gradiente da função objetivo com respeito aos coeficientes do filtro.
 
 Uma possível solução é estimar o gradiente com estimativas instantâneas de ${\bf R}$ e de ${\bf p}$.
-
 \begin{align}
 & {\bf \hat{R}}(k) = {\bf x}(k) {\bf x}^T(k) \\
 & {\bf \hat{p}}(k) = d(k)       {\bf x}(k)
 \end{align}
 
 Temos então que a estimativa para o gradiente é:
-
 \begin{equation}
 {\bf \hat{g}_w}(k) = -2e(k){\bf x}(k)
 \end{equation}
 
 Chegamos então ao algoritmo LMS em que a equação de atualização é:
-
 \begin{equation}\label{eq:LMS}
 {\bf w}(k+1) = {\bf w}(k) + 2 \mu e(k) {\bf x}(k)
 \end{equation}
-
-onde o fator de convergência $\mu$ deve ser escolhido em um range que garanta a convergência.
+onde o fator de convergência $\mu$ deve ser escolhido em um intervalo que garanta a convergência.
 
 \section{Implementação do filtro}
 
-O filtro será implementado em Python como explicado abaixo.
-
-Uma classe \mintinline{python3}{class LMSFilter()} será criada para o filtro. Essa classe contém uma função de inicialização que possui como argumentos de entrada o número de coeficientes do filtro e o fator de convergência $\mu$. Na criação do filtro os coeficientes são igualados a zero como mostrado no código abaixo.
+O filtro será implementado em Python utilizando-se uma classe \mintinline{python3}{class LMSFilter()}. Essa classe contém uma função de inicialização que possui como argumentos de entrada o número de coeficientes do filtro (\mintinline{python}{Nc}) e o fator de convergência (\mintinline{python}{mu}). Na criação do filtro os coeficientes (\mintinline{python}{w}) são igualados a zero como mostrado no código abaixo.
 
 \begin{minted}{python3}
   class LMSFilter(object):
     def __init__(self, Nc, mu):
-      """
-      Iniciar filtro com Nc coeficientes.
-      """
       self.Nc = Nc
       self.mu = mu
-      # valores iniciais para o filtro w = [0, 0, ..., 0]
       self.w = np.zeros(Nc)
 \end{minted}
 
-O filtro possui uma função \mintinline{python3}{predict(self, x)} que calcula a saída prevista para o filtro baseado no sinal de entrada \mintinline{python}{x} $(x(k))$. O cálculo é feito conforme a \cref{eq:y}:
+O filtro possui uma função \mintinline{python3}{predict(self, x)} que calcula a saída prevista para o filtro baseado no sinal de entrada \mintinline{python}{x} $({\bf x}(k))$. O cálculo é feito conforme a \cref{eq:y}:
 
 \begin{equation*}
 y(k) = \sum_{i=0}^{N} w_i(k) x_i(k) = {\bf w}^T(k) {\bf x}(k) \tag{\ref{eq:y} revisitada}
@@ -149,10 +135,6 @@ A atualização do filtro é feita pela função \mintinline{python3}{update(sel
 
 \begin{minted}{python3}
   def update(self, d, x):
-    """
-    Atualizar filtro baseado no sinal de entrada x
-    e no valor desejado d.
-    """
     y = self.w @ x
     e = d - y
     self.w += 2*self.mu * e * x

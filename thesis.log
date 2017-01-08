@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.6)  8 JAN 2017 20:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.6)  8 JAN 2017 20:51
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1743,7 +1743,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.a}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...^encias Bibliogr\'aficas}{29}{chapter*.42}
+l.28 ...^encias Bibliogr\'aficas}{27}{chapter*.42}
                                                    [1
 
 ])
@@ -1806,7 +1806,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
-<IMGS/sistema.pdf, id=263, 569.12625pt x 227.85126pt>
+<IMGS/sistema.pdf, id=267, 569.12625pt x 227.85126pt>
 File: IMGS/sistema.pdf Graphic file (type pdf)
  <use IMGS/sistema.pdf>
 Package pdftex.def Info: IMGS/sistema.pdf used on input line 13.
@@ -1823,7 +1823,7 @@ Package babel Info: Redefining portuges shorthand "|
  <./IMGS/sistema.pdf>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 63.
- <IMGS/FRF_all.pdf, id=282, 725.3411pt x 546.42229pt>
+ <IMGS/FRF_all.pdf, id=286, 725.3411pt x 546.42229pt>
 File: IMGS/FRF_all.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_all.pdf>
@@ -1833,13 +1833,13 @@ Package pdftex.def Info: IMGS/FRF_all.pdf used on input line 69.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<IMGS/sistemaf.pdf, id=286, 569.12625pt x 227.85126pt>
+<IMGS/sistemaf.pdf, id=290, 569.12625pt x 227.85126pt>
 File: IMGS/sistemaf.pdf Graphic file (type pdf)
  <use IMGS/sistemaf.pdf>
 Package pdftex.def Info: IMGS/sistemaf.pdf used on input line 78.
 (pdftex.def)             Requested size: 341.43437pt x 136.70137pt.
 
-<IMGS/FRF_i2_o2.pdf, id=287, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2.pdf, id=291, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2.pdf>
@@ -1879,14 +1879,14 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
 
-<IMGS/FRF_i2_o2_freq34.pdf, id=418, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2_freq34.pdf, id=422, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2_freq34.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2_freq34.pdf>
 Package pdftex.def Info: IMGS/FRF_i2_o2_freq34.pdf used on input line 40.
 (pdftex.def)             Requested size: 192.95488pt x 146.31624pt.
 
-<IMGS/F0_1000_tempo.pdf, id=419, 717.18562pt x 408.79349pt>
+<IMGS/F0_1000_tempo.pdf, id=423, 717.18562pt x 408.79349pt>
 File: IMGS/F0_1000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_tempo.pdf>
@@ -1908,7 +1908,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 
 
-] <IMGS/F0_5000_tempo.pdf, id=425, 717.18562pt x 408.79349pt>
+] <IMGS/F0_5000_tempo.pdf, id=429, 717.18562pt x 408.79349pt>
 File: IMGS/F0_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F0_5000_tempo.pdf>
@@ -1919,14 +1919,14 @@ Overfull \hbox (39.37378pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-<IMGS/FRF_i2_o2_freq_1_2.pdf, id=427, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2_freq_1_2.pdf, id=431, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2_freq_1_2.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2_freq_1_2.pdf>
 Package pdftex.def Info: IMGS/FRF_i2_o2_freq_1_2.pdf used on input line 65.
 (pdftex.def)             Requested size: 275.65103pt x 209.02412pt.
 
-<IMGS/F1_5000_tempo.pdf, id=429, 717.18562pt x 408.79349pt>
+<IMGS/F1_5000_tempo.pdf, id=433, 717.18562pt x 408.79349pt>
 File: IMGS/F1_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F1_5000_tempo.pdf>
@@ -1949,7 +1949,7 @@ Package babel Info: Redefining portuges shorthand "|
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/FRF_i2_o2_freq_1_2.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] <IMGS/F2_5000_tempo.pdf, id=668, 717.18562pt x 408.79349pt>
+>] <IMGS/F2_5000_tempo.pdf, id=672, 717.18562pt x 408.79349pt>
 File: IMGS/F2_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_tempo.pdf>
@@ -1966,14 +1966,14 @@ n: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 88.
- <IMGS/F0_noise_90.pdf, id=805, 428.43939pt x 292.79355pt>
+ <IMGS/F0_noise_90.pdf, id=809, 428.43939pt x 292.79355pt>
 File: IMGS/F0_noise_90.pdf Graphic file (type pdf)
 
 <use IMGS/F0_noise_90.pdf>
 Package pdftex.def Info: IMGS/F0_noise_90.pdf used on input line 109.
 (pdftex.def)             Requested size: 257.06561pt x 175.67747pt.
 
-<IMGS/F0_noise_10.pdf, id=806, 423.96956pt x 289.05301pt>
+<IMGS/F0_noise_10.pdf, id=810, 423.96956pt x 289.05301pt>
 File: IMGS/F0_noise_10.pdf Graphic file (type pdf)
 
 <use IMGS/F0_noise_10.pdf>
@@ -2009,12 +2009,12 @@ Package babel Info: Redefining portuges shorthand "|
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 103.
  [10]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 106.
 \openout5 = `thesis.pyg'.
 
  (./_minted-thesis/default-pyg-prefix.pygstyle)
@@ -2024,10 +2024,25 @@ Package babel Info: Redefining portuges shorthand "|
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
 )
+\openout5 = `thesis.pyg'.
+
+
+(./_minted-thesis/CA8853173EECA012FDDE4C18D9D860540102E502927AACB428B4F294F23E2
+359.pygtex)
+\openout5 = `thesis.pyg'.
+
+
+(./_minted-thesis/5736E83111C207AED84BBEBAD85957F30102E502927AACB428B4F294F23E2
+359.pygtex)
+\openout5 = `thesis.pyg'.
+
+
+(./_minted-thesis/B938B801A0BFBD5CA4825715039E75740102E502927AACB428B4F294F23E2
+359.pygtex)
 \openout3 = `thesis.pyg'.
 
 
-(./_minted-thesis/B4A3520EB5C310449B7BE208E75B54305359C4886C6A06F51CB01A67A2A7C
+(./_minted-thesis/94734B4FE0FD305F2C3CC8E9F23659B85359C4886C6A06F51CB01A67A2A7C
 2B3.pygtex)
 \openout5 = `thesis.pyg'.
 
@@ -2052,18 +2067,13 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 \openout3 = `thesis.pyg'.
 
 
-(./_minted-thesis/CB77603FD32474641CD5A4BC8C0956615359C4886C6A06F51CB01A67A2A7C
-2B3.pygtex
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 5.
- [11]))
+(./_minted-thesis/51DA56CA180E23FAEDC09E9100C6F5435359C4886C6A06F51CB01A67A2A7C
+2B3.pygtex))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 65.
- [12]
+ [11]
 \openout2 = `chap04.aux'.
 
  (./chap04.tex
@@ -2086,7 +2096,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4.
-<IMGS/F0_1000_90_conv.pdf, id=947, 633.42899pt x 413.3574pt>
+<IMGS/F0_1000_90_conv.pdf, id=943, 633.42899pt x 413.3574pt>
 File: IMGS/F0_1000_90_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_90_conv.pdf>
@@ -2101,12 +2111,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
-[13
+[12
 
 
 
  <./IMGS/F0_1000_90_conv.pdf>]
-<IMGS/F0_1000_10_conv.pdf, id=1021, 633.42899pt x 413.3574pt>
+<IMGS/F0_1000_10_conv.pdf, id=1018, 633.42899pt x 413.3574pt>
 File: IMGS/F0_1000_10_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_10_conv.pdf>
@@ -2119,7 +2129,7 @@ Overfull \hbox (16.60591pt too wide) in paragraph at lines 21--22
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 26.
-<IMGS/F0_1000_90_FRF_med_False.pdf, id=1025, 568.69489pt x 210.29341pt>
+<IMGS/F0_1000_90_FRF_med_False.pdf, id=1022, 568.69489pt x 210.29341pt>
 File: IMGS/F0_1000_90_FRF_med_False.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_90_FRF_med_False.pdf>
@@ -2127,7 +2137,7 @@ Package pdftex.def Info: IMGS/F0_1000_90_FRF_med_False.pdf used on input line 3
 6.
 (pdftex.def)             Requested size: 345.69629pt x 127.83276pt.
 
-<IMGS/F0_1000_90_FRF_med_True.pdf, id=1026, 568.74194pt x 210.29341pt>
+<IMGS/F0_1000_90_FRF_med_True.pdf, id=1023, 568.74194pt x 210.29341pt>
 File: IMGS/F0_1000_90_FRF_med_True.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_90_FRF_med_True.pdf>
@@ -2135,7 +2145,7 @@ Package pdftex.def Info: IMGS/F0_1000_90_FRF_med_True.pdf used on input line 42
 .
 (pdftex.def)             Requested size: 345.69629pt x 127.82634pt.
 
-<IMGS/F0_1000_10_FRF_med_False.pdf, id=1027, 568.69489pt x 210.29341pt>
+<IMGS/F0_1000_10_FRF_med_False.pdf, id=1024, 568.69489pt x 210.29341pt>
 File: IMGS/F0_1000_10_FRF_med_False.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_10_FRF_med_False.pdf>
@@ -2143,7 +2153,7 @@ Package pdftex.def Info: IMGS/F0_1000_10_FRF_med_False.pdf used on input line 5
 3.
 (pdftex.def)             Requested size: 345.69629pt x 127.83276pt.
 
-<IMGS/F0_1000_10_FRF_med_True.pdf, id=1028, 568.69489pt x 210.29341pt>
+<IMGS/F0_1000_10_FRF_med_True.pdf, id=1025, 568.69489pt x 210.29341pt>
 File: IMGS/F0_1000_10_FRF_med_True.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_10_FRF_med_True.pdf>
@@ -2154,13 +2164,13 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
- [14 <./IMGS/F0_1000_10_conv.pdf>]
+ [13 <./IMGS/F0_1000_10_conv.pdf>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
 
-[15 <./IMGS/F0_1000_90_FRF_med_False.pdf> <./IMGS/F0_1000_90_FRF_med_True.pdf
+[14 <./IMGS/F0_1000_90_FRF_med_False.pdf> <./IMGS/F0_1000_90_FRF_med_True.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F0_1000_90_FRF_med_True.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
@@ -2175,7 +2185,7 @@ F inclusion: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
- <IMGS/F0_1000_90_pred.pdf, id=1314, 628.95917pt x 382.40836pt>
+ <IMGS/F0_1000_90_pred.pdf, id=1311, 628.95917pt x 382.40836pt>
 File: IMGS/F0_1000_90_pred.pdf Graphic file (type pdf)
 
 <use IMGS/F0_1000_90_pred.pdf>
@@ -2211,7 +2221,7 @@ L/cmm/m/it/12 A[]sin\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 ^^Yf[]t\OT1/cmr/m/n/12 )
 n/12 )$
  []
 
-<IMGS/F1_1000_90_conv.pdf, id=1316, 628.95917pt x 413.3574pt>
+<IMGS/F1_1000_90_conv.pdf, id=1313, 628.95917pt x 413.3574pt>
 File: IMGS/F1_1000_90_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F1_1000_90_conv.pdf>
@@ -2226,8 +2236,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 103.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 103.
-[16 <./IMGS/F0_1000_90_pred.pdf>]
-<IMGS/F1_1000_10_conv.pdf, id=1378, 628.95917pt x 413.3574pt>
+[15 <./IMGS/F0_1000_90_pred.pdf>]
+<IMGS/F1_1000_10_conv.pdf, id=1375, 628.95917pt x 413.3574pt>
 File: IMGS/F1_1000_10_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F1_1000_10_conv.pdf>
@@ -2238,7 +2248,7 @@ Overfull \hbox (13.47707pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-<IMGS/F1_1000_10_mu_003_conv.pdf, id=1383, 628.95917pt x 413.3574pt>
+<IMGS/F1_1000_10_mu_003_conv.pdf, id=1380, 628.95917pt x 413.3574pt>
 File: IMGS/F1_1000_10_mu_003_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F1_1000_10_mu_003_conv.pdf>
@@ -2254,16 +2264,16 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 128.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 128.
-[17 <./IMGS/F1_1000_90_conv.pdf>]
+[16 <./IMGS/F1_1000_90_conv.pdf>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 128.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 128.
- [18 <./IMGS/F1_1000_10_conv.pdf> <./IMGS/F1_1000_10_mu_003_conv.pdf
+ [17 <./IMGS/F1_1000_10_conv.pdf> <./IMGS/F1_1000_10_mu_003_conv.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F1_1000_10_mu_003_conv.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] <IMGS/F1_1000_10_mu_002_conv.pdf, id=1600, 628.95917pt x 413.3574pt>
+>] <IMGS/F1_1000_10_mu_002_conv.pdf, id=1596, 628.95917pt x 413.3574pt>
 File: IMGS/F1_1000_10_mu_002_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F1_1000_10_mu_002_conv.pdf>
@@ -2278,7 +2288,7 @@ Overfull \hbox (13.47707pt too wide) in paragraph at lines 131--132
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 136.
 
-<IMGS/F1_1000_10_mu_002_FRF_med_False.pdf, id=1603, 568.69489pt x 210.29341pt>
+<IMGS/F1_1000_10_mu_002_FRF_med_False.pdf, id=1599, 568.69489pt x 210.29341pt>
 File: IMGS/F1_1000_10_mu_002_FRF_med_False.pdf Graphic file (type pdf)
 
 <use IMGS/F1_1000_10_mu_002_FRF_med_False.pdf>
@@ -2289,10 +2299,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 148.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 148.
- [19 <./IMGS/F1_1000_10_mu_002_conv.pdf>]
+ [18 <./IMGS/F1_1000_10_mu_002_conv.pdf>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 148.
- <IMGS/F1_1000_10_mu_002_pred.pdf, id=1679, 628.95917pt x 382.40836pt>
+ <IMGS/F1_1000_10_mu_002_pred.pdf, id=1676, 628.95917pt x 382.40836pt>
 File: IMGS/F1_1000_10_mu_002_pred.pdf Graphic file (type pdf)
 
 <use IMGS/F1_1000_10_mu_002_pred.pdf>
@@ -2324,12 +2334,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 163.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 163.
-[20 <./IMGS/F1_1000_10_mu_002_FRF_med_False.pdf> <./IMGS/F1_1000_10_mu_002_pred
+[19 <./IMGS/F1_1000_10_mu_002_FRF_med_False.pdf> <./IMGS/F1_1000_10_mu_002_pred
 .pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F1_1000_10_mu_002_pred.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] <IMGS/F2_1000_90_conv.pdf, id=1796, 628.95917pt x 413.3574pt>
+>] <IMGS/F2_1000_90_conv.pdf, id=1793, 628.95917pt x 413.3574pt>
 File: IMGS/F2_1000_90_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F2_1000_90_conv.pdf>
@@ -2340,7 +2350,7 @@ Overfull \hbox (13.47707pt too wide) in paragraph at lines 168--169
  [][] 
  []
 
-<IMGS/F2_1000_50_conv.pdf, id=1797, 628.95917pt x 413.3574pt>
+<IMGS/F2_1000_50_conv.pdf, id=1794, 628.95917pt x 413.3574pt>
 File: IMGS/F2_1000_50_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F2_1000_50_conv.pdf>
@@ -2351,7 +2361,7 @@ Overfull \hbox (13.47707pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
-<IMGS/F2_1000_10_conv.pdf, id=1798, 628.95917pt x 413.3574pt>
+<IMGS/F2_1000_10_conv.pdf, id=1795, 628.95917pt x 413.3574pt>
 File: IMGS/F2_1000_10_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F2_1000_10_conv.pdf>
@@ -2362,7 +2372,7 @@ Overfull \hbox (13.47707pt too wide) in paragraph at lines 182--183
  [][] 
  []
 
-<IMGS/F2_5000_90_conv.pdf, id=1799, 628.95917pt x 413.3574pt>
+<IMGS/F2_5000_90_conv.pdf, id=1796, 628.95917pt x 413.3574pt>
 File: IMGS/F2_5000_90_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_90_conv.pdf>
@@ -2373,7 +2383,7 @@ Overfull \hbox (13.47707pt too wide) in paragraph at lines 189--190
  [][] 
  []
 
-<IMGS/F2_5000_50_conv.pdf, id=1800, 628.95917pt x 413.3574pt>
+<IMGS/F2_5000_50_conv.pdf, id=1797, 628.95917pt x 413.3574pt>
 File: IMGS/F2_5000_50_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_50_conv.pdf>
@@ -2384,7 +2394,7 @@ Overfull \hbox (13.47707pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
-<IMGS/F2_5000_10_conv.pdf, id=1801, 628.95917pt x 413.3574pt>
+<IMGS/F2_5000_10_conv.pdf, id=1798, 628.95917pt x 413.3574pt>
 File: IMGS/F2_5000_10_conv.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_10_conv.pdf>
@@ -2399,12 +2409,12 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 208.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 208.
-[21 <./IMGS/F2_1000_90_conv.pdf>]
+[20 <./IMGS/F2_1000_90_conv.pdf>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 208.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 208.
- [22 <./IMGS/F2_1000_50_conv.pdf> <./IMGS/F2_1000_10_conv.pdf
+ [21 <./IMGS/F2_1000_50_conv.pdf> <./IMGS/F2_1000_10_conv.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F2_1000_10_conv.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -2413,14 +2423,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 208.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 208.
- [23 <./IMGS/F2_5000_90_conv.pdf> <./IMGS/F2_5000_50_conv.pdf
+ [22 <./IMGS/F2_5000_90_conv.pdf> <./IMGS/F2_5000_50_conv.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F2_5000_50_conv.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 208.
- <IMGS/F2_5000_90_FRF_med_False.pdf, id=2161, 568.69489pt x 210.29341pt>
+ <IMGS/F2_5000_90_FRF_med_False.pdf, id=2158, 568.69489pt x 210.29341pt>
 File: IMGS/F2_5000_90_FRF_med_False.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_90_FRF_med_False.pdf>
@@ -2431,11 +2441,11 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 219.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 219.
- [24 <./IMGS/F2_5000_10_conv.pdf> <./IMGS/F2_5000_90_FRF_med_False.pdf
+ [23 <./IMGS/F2_5000_10_conv.pdf> <./IMGS/F2_5000_90_FRF_med_False.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F2_5000_90_FRF_med_False.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
->] <IMGS/F2_5000_50_FRF_med_False.pdf, id=2290, 568.69489pt x 210.29341pt>
+>] <IMGS/F2_5000_50_FRF_med_False.pdf, id=2286, 568.69489pt x 210.29341pt>
 File: IMGS/F2_5000_50_FRF_med_False.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_50_FRF_med_False.pdf>
@@ -2443,7 +2453,7 @@ Package pdftex.def Info: IMGS/F2_5000_50_FRF_med_False.pdf used on input line 2
 22.
 (pdftex.def)             Requested size: 398.0837pt x 147.20438pt.
 
-<IMGS/F2_5000_10_FRF_med_False.pdf, id=2292, 568.74194pt x 210.29341pt>
+<IMGS/F2_5000_10_FRF_med_False.pdf, id=2288, 568.74194pt x 210.29341pt>
 File: IMGS/F2_5000_10_FRF_med_False.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_10_FRF_med_False.pdf>
@@ -2453,51 +2463,40 @@ Package pdftex.def Info: IMGS/F2_5000_10_FRF_med_False.pdf used on input line 2
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 238.
 
-<IMGS/F2_5000_90_pred.pdf, id=2297, 628.95917pt x 382.40836pt>
+<IMGS/F2_5000_90_pred.pdf, id=2293, 628.95917pt x 382.40836pt>
 File: IMGS/F2_5000_90_pred.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_90_pred.pdf>
 Package pdftex.def Info: IMGS/F2_5000_90_pred.pdf used on input line 244.
-(pdftex.def)             Requested size: 440.26842pt x 267.684pt.
-
-Overfull \hbox (13.47707pt too wide) in paragraph at lines 244--245
- [][] 
- []
-
+(pdftex.def)             Requested size: 377.37842pt x 229.44678pt.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 247.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 247.
-[25 <./IMGS/F2_5000_50_FRF_med_False.pdf> <./IMGS/F2_5000_10_FRF_med_False.pdf
+ [24 <./IMGS/F2_5000_50_FRF_med_False.pdf> <./IMGS/F2_5000_10_FRF_med_False.pdf
+
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F2_5000_10_FRF_med_False.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
->] <IMGS/F2_5000_10_pred.pdf, id=2404, 628.95917pt x 382.40836pt>
+>] <IMGS/F2_5000_10_pred.pdf, id=2401, 628.95917pt x 382.40836pt>
 File: IMGS/F2_5000_10_pred.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_10_pred.pdf>
 Package pdftex.def Info: IMGS/F2_5000_10_pred.pdf used on input line 251.
-(pdftex.def)             Requested size: 440.26842pt x 267.684pt.
-
-Overfull \hbox (13.47707pt too wide) in paragraph at lines 251--252
- [][] 
- []
-
+(pdftex.def)             Requested size: 377.37842pt x 229.44678pt.
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 66.
- [26 <./IMGS/F2_5000_90_pred.pdf>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 66.
- [27 <./IMGS/F2_5000_10_pred.pdf>]
+ [25 <./IMGS/F2_5000_90_pred.pdf> <./IMGS/F2_5000_10_pred.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F2_5000_10_pred.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
 \openout2 = `chap05.aux'.
 
-
-(./chap05.tex
+ (./chap05.tex
 Cap\'{\i }tulo 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -2506,7 +2505,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 67.
- [28
+ [26
 
 
 
@@ -2518,7 +2517,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 74.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 74.
- [29
+ [27
 
 
 
@@ -2538,7 +2537,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 29.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 29.
- [30
+ [28
 
 
 ]
@@ -2546,17 +2545,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 68.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 68.
- [31]
+ [29]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 107.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 107.
- [32]))
+ [30]))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 74.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 74.
- [33] 
+ [31] 
 AED: lastpage setting LastPage
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 75.
@@ -2573,10 +2572,10 @@ runsystem(rm thesis.pyg)...executed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 35685 strings out of 493013
- 729728 string characters out of 6135682
+ 35695 strings out of 493013
+ 730683 string characters out of 6135682
  833671 words of memory out of 5000000
- 38443 multiletter control sequences out of 15000+600000
+ 38446 multiletter control sequences out of 15000+600000
  21395 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,67p,10378b,955s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2595,10 +2594,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (40 pages, 1986533 bytes).
+Output written on thesis.pdf (38 pages, 1985504 bytes).
 PDF statistics:
- 2633 PDF objects out of 2984 (max. 8388607)
- 1061 compressed objects within 11 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 2626 PDF objects out of 2984 (max. 8388607)
+ 1056 compressed objects within 11 object streams
+ 124 named destinations out of 1000 (max. 500000)
  422 words of extra memory for PDF output out of 10000 (max. 10000000)
 
