@@ -6,11 +6,28 @@
 \usepackage{booktabs}
 \usepackage{cleveref}
 \usepackage{minted}
+
+%manter figuras nas seções
 \usepackage[section]{placeins}
+\makeatletter
+\AtBeginDocument{%
+	\expandafter\renewcommand\expandafter\subsection\expandafter{%
+		\expandafter\@fb@secFB\subsection
+	}%
+}
+\makeatother
+
+%para utilizar subfigures
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 
 %tikz
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
+
+%localização das figuras
+\graphicspath{{IMGS/}}
 
 \makelosymbols
 \makeloabbreviations
