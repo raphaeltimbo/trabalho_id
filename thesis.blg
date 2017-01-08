@@ -9,48 +9,47 @@ A level-1 auxiliary file: chap05.aux
 The style file: coppe-unsrt.bst
 A level-1 auxiliary file: appenA.aux
 Database file #1: thesis.bib
-Warning--empty institution in techreport-example
-Warning--empty address in incollection-example
-Warning--can't use both author and editor fields in inbook-example
-You've used 9 entries,
+`address' is a missing field, not a string, for entry diniz1997adaptive
+while executing---line 1327 of file coppe-unsrt.bst
+You've used 2 entries,
             2630 wiz_defined-function locations,
-            614 strings with 5656 characters,
-and the built_in function-call counts, 3190 in all, are:
-= -- 276
-> -- 80
-< -- 15
-+ -- 42
-- -- 24
-* -- 259
-:= -- 479
-add.period$ -- 27
-call.type$ -- 9
-change.case$ -- 13
-chr.to.int$ -- 9
-cite$ -- 12
-duplicate$ -- 216
-empty$ -- 328
-format.name$ -- 33
-if$ -- 682
+            563 strings with 4287 characters,
+and the built_in function-call counts, 739 in all, are:
+= -- 58
+> -- 20
+< -- 3
++ -- 10
+- -- 6
+* -- 64
+:= -- 112
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 46
+empty$ -- 79
+format.name$ -- 10
+if$ -- 151
 int.to.chr$ -- 1
-int.to.str$ -- 10
-missing$ -- 7
-newline$ -- 50
-num.names$ -- 29
-pop$ -- 74
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 18
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 2
 quote$ -- 0
-skip$ -- 107
+skip$ -- 22
 stack$ -- 0
-substring$ -- 107
-swap$ -- 69
-text.length$ -- 7
+substring$ -- 30
+swap$ -- 12
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 57
-warning$ -- 3
-while$ -- 26
+type$ -- 11
+warning$ -- 0
+while$ -- 6
 width$ -- 0
-write$ -- 129
-(There were 3 warnings)
+write$ -- 32
+(There was 1 error message)

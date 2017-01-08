@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.6)  7 JAN 2017 21:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.6)  7 JAN 2017 22:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1695,7 +1695,7 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 32.
 Package hyperref Info: Option `raiselinks' set `true' on input line 32.
 Package hyperref Info: Option `pageanchor' set `true' on input line 32.
 
-<coppe-logo.pdf, id=67, 177.463pt x 76.285pt>
+<coppe-logo.pdf, id=71, 177.463pt x 76.285pt>
 File: coppe-logo.pdf Graphic file (type pdf)
  <use coppe-logo.pdf>
 Package pdftex.def Info: coppe-logo.pdf used on input line 32.
@@ -1743,23 +1743,13 @@ Package babel Info: Redefining portuges shorthand "|
 \tf@lot=\write12
 \openout12 = `thesis.lot'.
 
- (./thesis.los
+ (./thesis.los)
+(./thesis.lab
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 2.
-
-[3
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2.
-) (./thesis.lab
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2.
- [4
+ [3
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -1769,7 +1759,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 45.
- [5
+ [4
 
 ]
 \openout2 = `chap01.aux'.
@@ -1780,7 +1770,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 7.
-<IMGS/sistema.pdf, id=151, 569.12625pt x 227.85126pt>
+<IMGS/sistema.pdf, id=150, 569.12625pt x 227.85126pt>
 File: IMGS/sistema.pdf Graphic file (type pdf)
  <use IMGS/sistema.pdf>
 Package pdftex.def Info: IMGS/sistema.pdf used on input line 13.
@@ -1804,7 +1794,7 @@ l.37 \end{equation*}
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 64.
 
-<IMGS/FRF_all.pdf, id=172, 725.3411pt x 546.42229pt>
+<IMGS/FRF_all.pdf, id=170, 725.3411pt x 546.42229pt>
 File: IMGS/FRF_all.pdf Graphic file (type pdf)
  <use IMGS/FRF_all.pdf>
 Package pdftex.def Info: IMGS/FRF_all.pdf used on input line 70.
@@ -1813,13 +1803,13 @@ Package pdftex.def Info: IMGS/FRF_all.pdf used on input line 70.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<IMGS/sistemaf.pdf, id=175, 569.12625pt x 227.85126pt>
+<IMGS/sistemaf.pdf, id=173, 569.12625pt x 227.85126pt>
 File: IMGS/sistemaf.pdf Graphic file (type pdf)
  <use IMGS/sistemaf.pdf>
 Package pdftex.def Info: IMGS/sistemaf.pdf used on input line 79.
 (pdftex.def)             Requested size: 341.43437pt x 136.70137pt.
 
-<IMGS/FRF_i2_o2.pdf, id=176, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2.pdf, id=174, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2.pdf>
@@ -1924,7 +1914,7 @@ l.53
 
 pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F0_1000_tempo.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] <IMGS/F0_5000_tempo.pdf, id=430, 717.18562pt x 408.79349pt>
+>] <IMGS/F0_5000_tempo.pdf, id=429, 717.18562pt x 408.79349pt>
 File: IMGS/F0_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F0_5000_tempo.pdf>
@@ -1935,14 +1925,14 @@ Overfull \hbox (3.52335pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-<IMGS/FRF_i2_o2_freq_1_2.pdf, id=432, 275.65172pt x 209.02466pt>
+<IMGS/FRF_i2_o2_freq_1_2.pdf, id=431, 275.65172pt x 209.02466pt>
 File: IMGS/FRF_i2_o2_freq_1_2.pdf Graphic file (type pdf)
 
 <use IMGS/FRF_i2_o2_freq_1_2.pdf>
 Package pdftex.def Info: IMGS/FRF_i2_o2_freq_1_2.pdf used on input line 65.
 (pdftex.def)             Requested size: 275.65103pt x 209.02412pt.
 
-<IMGS/F1_5000_tempo.pdf, id=434, 717.18562pt x 408.79349pt>
+<IMGS/F1_5000_tempo.pdf, id=433, 717.18562pt x 408.79349pt>
 File: IMGS/F1_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F1_5000_tempo.pdf>
@@ -1953,7 +1943,7 @@ Overfull \hbox (3.52335pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-<IMGS/F2_5000_tempo.pdf, id=436, 717.18562pt x 408.79349pt>
+<IMGS/F2_5000_tempo.pdf, id=435, 717.18562pt x 408.79349pt>
 File: IMGS/F2_5000_tempo.pdf Graphic file (type pdf)
 
 <use IMGS/F2_5000_tempo.pdf>
@@ -1999,21 +1989,21 @@ n: multiple pdfs with page group included in a single page
 >]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 88.
- <IMGS/F0_noise_90.pdf, id=631, 428.43939pt x 292.79355pt>
+ <IMGS/F0_noise_90.pdf, id=629, 428.43939pt x 292.79355pt>
 File: IMGS/F0_noise_90.pdf Graphic file (type pdf)
 
 <use IMGS/F0_noise_90.pdf>
 Package pdftex.def Info: IMGS/F0_noise_90.pdf used on input line 109.
 (pdftex.def)             Requested size: 257.06561pt x 175.67747pt.
 
-<IMGS/F0_noise_10.pdf, id=632, 423.96956pt x 289.05301pt>
+<IMGS/F0_noise_10.pdf, id=630, 423.96956pt x 289.05301pt>
 File: IMGS/F0_noise_10.pdf Graphic file (type pdf)
 
 <use IMGS/F0_noise_10.pdf>
 Package pdftex.def Info: IMGS/F0_noise_10.pdf used on input line 116.
 (pdftex.def)             Requested size: 254.3837pt x 173.43314pt.
 
-<IMGS/F2_noise_10.pdf, id=633, 423.96956pt x 289.05301pt>
+<IMGS/F2_noise_10.pdf, id=631, 423.96956pt x 289.05301pt>
 File: IMGS/F2_noise_10.pdf Graphic file (type pdf)
 
 <use IMGS/F2_noise_10.pdf>
@@ -2068,12 +2058,13 @@ pdfTeX warning: /usr/bin/pdflatex (file ./IMGS/F2_noise_10.pdf): PDF inclusion:
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
- [10
+[10
 
 
 
@@ -2082,8 +2073,64 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.48   \include{chap03}
-                       ]
+l.48 \end{equation}
+                   ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 104.
+ [11]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 114.
+\openout5 = `thesis.pyg'.
+
+ (./_minted-thesis/default-pyg-prefix.pygstyle)
+(./_minted-thesis/default.pygstyle)
+(./_minted-thesis/D48A00865767AF97A0FA1A45E2D4ACFD5359C4886C6A06F51CB01A67A2A7C
+2B3.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+)
+\openout3 = `thesis.pyg'.
+
+
+(./_minted-thesis/B4A3520EB5C310449B7BE208E75B54305359C4886C6A06F51CB01A67A2A7C
+2B3.pygtex)
+\openout5 = `thesis.pyg'.
+
+
+(./_minted-thesis/4EDC8A5FBD68C0F7073B1B56DA518E585359C4886C6A06F51CB01A67A2A7C
+2B3.pygtex)
+\openout5 = `thesis.pyg'.
+
+
+(./_minted-thesis/401B30E3B8B5D629635A5C613CDB79190102E502927AACB428B4F294F23E2
+359.pygtex)
+\openout3 = `thesis.pyg'.
+
+
+(./_minted-thesis/E7841C1904166EBC98389CAD08D3AE7E5359C4886C6A06F51CB01A67A2A7C
+2B3.pygtex)
+\openout5 = `thesis.pyg'.
+
+
+(./_minted-thesis/01DC1347BA5EED75446E97F31734EA615359C4886C6A06F51CB01A67A2A7C
+2B3.pygtex)
+\openout3 = `thesis.pyg'.
+
+
+(./_minted-thesis/CB77603FD32474641CD5A4BC8C0956615359C4886C6A06F51CB01A67A2A7C
+2B3.pygtex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+ [12]))
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 48.
+ [13]
 \openout2 = `chap04.aux'.
 
  (./chap04.tex
@@ -2095,7 +2142,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 49.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 49.
- [11
+ [14
 
 
 
@@ -2111,7 +2158,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 50.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 50.
- [12
+ [15
 
 
 
@@ -2123,7 +2170,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
- [13
+ [16
 
 
 
@@ -2139,7 +2186,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 57.
- [14
+ [17
 
 
 ] 
@@ -2153,33 +2200,36 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 75E97D426942C4C358825D4A31FEC3AC;910.
+(rerunfilecheck)             Checksum: 9FAB6FEFB40F772C5DE520D1B762DBE4;989.
+runsystem(rm thesis.pyg)...executed.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 34112 strings out of 493013
- 698416 string characters out of 6135682
- 807191 words of memory out of 5000000
- 37000 multiletter control sequences out of 15000+600000
- 16219 words of font info for 63 fonts, out of 8000000 for 9000
+ 34346 strings out of 493013
+ 703193 string characters out of 6135682
+ 808191 words of memory out of 5000000
+ 37193 multiletter control sequences out of 15000+600000
+ 16387 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,17n,67p,10378b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,17n,67p,10378b,953s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
-0.pfb>
-Output written on thesis.pdf (20 pages, 650990 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (22 pages, 671332 bytes).
 PDF statistics:
- 926 PDF objects out of 1000 (max. 8388607)
- 441 compressed objects within 5 object streams
- 63 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 965 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
