@@ -88,7 +88,7 @@ A \cref{fig:F0_1000_90_pred} mostra a predição para o filtro obtido com $ F=F_
 Os resultados obtidos para os diferentes valores de $ N $ e $ SNR $ não apresentam diferença para o caso em que $ F=F_0 $ e por isso serão omitidos.
 
 \section{Resultados para $ F_1 $}
-\subsection{Adaptação do filtro}
+\subsection{Adaptação do filtro}\label{adapt_F_1}
 
 Os resultados da adaptação do filtro para uma força $F_1(t) = A_1 sin(2\pi f_1 t) + A_2 sin(2\pi f_2 t)$  com $ N=1000 $  e $ SNR = 90 $ são mostrados na \cref{fig:F1_1000_90_conv}. Para este caso a convergência se mostrou próxima ao que foi obtido na análise de $ F_0 $. 
 
@@ -237,14 +237,14 @@ A \cref{fig:F2_5000_10_FRF_med_False} apresenta a FRF para nível de ruído com 
 
 \subsection{Predição}
 
+Para a predição iremos utilizar a mesma força utilizada em $ F=F_0 $ e descrita na \ref{eq:F_3}. Os resultados da predição são apresentados na \cref{fig:F2_5000_90_pred} e na \cref{fig:F2_5000_10_pred}, para $ SNR= $ 90 e 10 respectivamente. Os resultados mostram que, para $ SNR=10 $, o filtro obtido é capaz de prever com grande exatidão a resposta do sistema.
+
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.7]{F2_5000_90_pred}
 	\caption{Predição do filtro obtido com $ F=F_2 $, $ N=5000 $ e $ SNR=90 $.}
 	\label{fig:F2_5000_90_pred}
-\end{figure}
-
-Para a predição iremos utilizar a mesma força utilizada em $ F=F_0 $ e descrita na \ref{eq:F_3}. Os resultados da predição são apresentados na \cref{fig:F2_5000_90_pred} e na \cref{fig:F2_5000_10_pred}, para $ SNR= $ 90 e 10 respectivamente. Os resultados mostram que, para $ SNR=10 $, o filtro obtido é capaz de prever com grande exatidão a resposta do sistema.  
+\end{figure}  
 
 \begin{figure}
 	\centering

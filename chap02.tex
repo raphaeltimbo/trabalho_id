@@ -33,18 +33,18 @@ Valores para a relação entre sinal e ruído - \abbrev{SNR}{Signal to Noise Rat
 
 A \cref{fig:FRF_i2_o2_freq34} mostra a posição da frequência de excitação para a aplicação da força $F_0$, em que uma amplitude $A_0 = 1$ foi utilizada.
 
-\begin{figure}
-	\centering
-	\includegraphics[scale=1]{FRF_i2_o2_freq34.pdf}
-	\caption{Frequência de excitação para a força $F_0$.}
-	\label{fig:FRF_i2_o2_freq34}
-\end{figure}
-
 A \cref{fig:F0_1000_tempo} mostra a resposta no tempo do sistema ao aplicarmos a força $F_0$ na frequência mostrada na \cref{fig:FRF_i2_o2_freq34} para uma amostragem $N = 1000$. Podemos observar que, para $N=1000$, temos uma excitação de aproximadamente 16 segundos e ainda temos algum transiente na resposta no tempo. Também é possível observar que essa parcela apresenta mais que uma frequência de oscilação.
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.6]{F0_1000_tempo.pdf}
+	\includegraphics[scale=0.7]{FRF_i2_o2_freq34.pdf}
+	\caption{Frequência de excitação para a força $F_0$.}
+	\label{fig:FRF_i2_o2_freq34}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.65]{F0_1000_tempo.pdf}
 	\caption{Resposta no tempo para a força $F_0$ com $N=1000$.}
 	\label{fig:F0_1000_tempo}
 \end{figure}
@@ -53,12 +53,12 @@ A \cref{fig:F0_5000_tempo} mostra a resposta no tempo para $N=5000$. Neste caso,
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.6]{F0_5000_tempo.pdf}
+	\includegraphics[scale=0.65]{F0_5000_tempo.pdf}
 	\caption{Resposta no tempo para a força $F_0$ com $N=5000$.}
 	\label{fig:F0_5000_tempo}
 \end{figure}
 
-Para a força $F_1$ a \cref{fig:FRF_i2_o2_freq_1_2} mostra as frequências de excitação que foram aplicadas na massa $m_2$. Podemos notar que nesse caso as forças aplicadas estão próximas as frequências naturais do sistema.
+Para a força $F_1$, a \cref{fig:FRF_i2_o2_freq_1_2} mostra as frequências de excitação que foram aplicadas na massa $m_2$. Podemos notar que, nesse caso, as forças aplicadas estão próximas as frequências naturais do sistema.
 
 \begin{figure}
 	\centering
@@ -71,21 +71,21 @@ A \cref{fig:F1_5000_tempo} mostra a resposta no tempo para $F_1$ com $ A_1 = 1 $
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.6]{F1_5000_tempo.pdf}
+	\includegraphics[scale=0.55]{F1_5000_tempo.pdf}
 	\caption{Resposta no tempo para a força $F_1$ com $N=5000$.}
 	\label{fig:F1_5000_tempo}
 \end{figure}
 
 O último caso de forçamento é mostrado na \cref{fig:F2_5000_tempo} onde um ruído branco com variância 1 é aplicado ao sistema.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.6]{F2_5000_tempo.pdf}
+	\includegraphics[scale=0.55]{F2_5000_tempo.pdf}
 	\caption{Resposta no tempo para a força $F_2$ com $N=5000$.}
 	\label{fig:F2_5000_tempo}
 \end{figure}
 
-\section{Adição do ruído}
+\clearpage \section{Adição do ruído}
 
 Conforme mostrado no item \ref{Resposta do sistema no tempo}, a análise será feita para três diferentes níveis de ruído ($ SNR $ = 90, 50, 10). 
 
@@ -102,9 +102,9 @@ Para calcularmos a amplitude do ruído inserido '$ n $' utilizaremos a \cref{eq:
 SNR = 20log_{10}\Bigg(\frac{A_s}{A_n}\Bigg) \rightarrow A_n = \frac{A_s}{10^{SNR/20}}
 \end{equation}
 
-Abaixo (\cref{fig:F0_noise_90}, \cref{fig:F0_noise_10} e \cref{fig:F2_noise_10}), são mostrados alguns resultados comparando o sinal puro e o sinal corrompido para um determinado nível de ruído.
+Abaixo (\cref{fig:F0_noise_90} e \cref{fig:F0_noise_10}), são mostrados alguns resultados comparando o sinal puro e o sinal corrompido para um determinado nível de ruído.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.6]{F0_noise_90}
 	\caption{Sinal puro e sinal corrompido para $ F_0 $ e $ SNR=90 $.}
@@ -117,11 +117,3 @@ Abaixo (\cref{fig:F0_noise_90}, \cref{fig:F0_noise_10} e \cref{fig:F2_noise_10})
 	\caption{Sinal puro e sinal corrompido para $ F_0 $ e $ SNR=10 $.}
 	\label{fig:F0_noise_10}
 \end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[scale=0.6]{F2_noise_10}
-	\caption{Sinal puro e sinal corrompido para $ F_2 $ e $ SNR=10 $.}
-	\label{fig:F2_noise_10}
-\end{figure}
-

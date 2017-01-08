@@ -1,1 +1,149 @@
-\chapter{Algumas Demonstra{\c c}\~oes}
+\chapter{Código utilizado}
+
+Foi omitido o código utilizado para gerar o sistema utilizado (código do trabalho 1) e para plotar os gráficos apresentados no trabalho.
+
+\begin{minted}{python3}
+
+
+def F0(t):
+	A0 = 1
+	w0 = 33.84
+	return A0*np.sin(w0*t)
+
+def F1(t):
+	A1, A2 = (1, 2)
+	w1, w2 = (0.9*18, 1.1*50)
+	return A1*np.sin(w1*t) + A2*np.sin(w2*t)
+
+def F2(t):
+	var = 1
+	norm = stats.norm(0, np.sqrt(var))
+	return norm.rvs(len(t))
+
+def F4(t):
+	A1, A2, A3 = (1, 2, 3)
+	w1, w2, w3 = (0.7*20, 0.8*50, 1.3*50)
+	var = 1
+	norm = stats.norm(0, np.sqrt(var))
+	return A1*np.sin(w1*t) + A2*np.sin(w2*t) + A3*np.sin(w3*t) + norm.rvs(len(t))
+	
+m0, m1, m2 = (1, 1, 1)
+k0, k1, k2 = (1600, 1600, 1600)
+M1 = np.array([[m0, 0, 0],
+		[0, m1, 0],
+		[0, 0, m2]])
+K1 = np.array([[k0+k1, -k1,   0],
+		[-k1, k1+k2, -k2],
+		[0,     -k2,  k2]])
+alpha, beta = 1e-3, 1e-3
+C1 = alpha*M1 + beta*K1
+sys = vt.VibSystem(M1, alpha*M1 + beta*K1, K1,
+r'Sistema 1 - $\alpha = 10^{-3}$ e $\beta = 10^{-3}$')
+
+def noise(sig, snr):
+	"""
+	Returns a corrupted signal based on a
+	signal-to-noise ratio (SNR).
+	"""
+	a_s = np.sqrt((sig * sig).mean())
+	a_n = a_s/10**(snr/20)
+	var = a_n**2
+	norm = stats.norm(0, np.sqrt(var))
+	
+	return sig + norm.rvs(len(sig))
+
+
+class LMSFilter(object):
+	def __init__(self, Nc, mu):
+		"""
+		Iniciar filtro com Nc coeficientes.
+		"""
+		self.Nc = Nc
+		self.mu = mu
+		# valores iniciais para o filtro w = [0, 0, ..., 0]
+		self.w = np.zeros(Nc)
+	
+	def predict(self, x):
+		y = self.w @ x
+		return y
+	
+	def update(self, d, x):
+		"""
+		Atualizar filtro baseado no sinal de entrada x
+		e no valor desejado d.
+		"""
+		y = self.w @ x
+		e = d - y
+		self.w += 2 * self.mu * e * x
+		
+class SysId(object):
+	def __init__(self, name, sys, Nc, mu, F, N, snr,
+	inp=2, out=0):
+	self.name = name
+	self.names = name.split('_')
+	self.sys = sys
+	self.Nc = Nc
+	self.mu = mu
+	self.F = F
+	self.N = N
+	self.snr = snr
+	self.inp = inp
+	self.out = out
+	
+	# criar filtro
+	self.filt = vt.LMSFilter(Nc, mu)
+	
+	# criar array de tempo
+	self.dt = 1/(8*(50/(2*np.pi)))
+	self.t = np.linspace(0, N*self.dt, N)
+	
+	# criar forçamento (input)
+	F_ = np.zeros((len(self.t), sys.n))
+	F_[:, inp] = F(self.t)
+	self.F_ = F_
+	self.x = F_[:, inp]
+	
+	# resposta do sistema (d)
+	_, _, self.sys_time_resp = sys.time_response(self.F_, self.t)
+	self.d = self.sys_time_resp[:, out] # selecionar output
+	
+	# resposta do sistema com ruído (d_noise)
+	d_n = np.copy(self.sys_time_resp.T)
+	for i, sig in enumerate(d_n):
+	d_n[i, :] = noise(sig, snr)
+	self.sys_time_resp_noise = d_n.T
+	self.d_noise = self.sys_time_resp_noise[:, out] # sel. output
+	
+	# atualizar filtro
+	ws_hist = np.zeros((N, Nc))
+	ys_hist = np.zeros(N)
+	# adicionar Nc zeros ao início do input
+	self.x_shift = np.concatenate([np.zeros(Nc - 1), self.x])
+	for i in range(N):	
+		self.filt.update(self.d_noise[i], self.x_shift[i: i + Nc])
+		ys_hist[i] = self.filt.predict(self.x_shift[i: i + Nc])
+		ws_hist[i] = self.filt.w
+
+	self.w = self.filt.w
+	self.ws = ws_hist
+	self.ys = ys_hist
+	self.e = ((self.d_noise - self.ys))
+	
+	def y_last_w(self, sig):
+		N = self.N
+		Nc = self.Nc
+		sig = np.concatenate([np.zeros(Nc - 1), sig])
+		y_last_w = np.zeros(N)
+		for i in range(N):
+		y_last_w[i] += self.filt.predict(sig[i: i + Nc])
+	
+	return y_last_w
+	
+	def freq_resp(self, sig, worN):
+		fs = 1/self.dt
+		w, h = signal.freqz(sig, worN=worN)
+		w *= fs
+
+	return w, h
+
+\end{minted}
