@@ -14,7 +14,7 @@ Os resultados da adaptação do filtro para uma força $F_0(t) = A_0 sin(2\pi f_
 
 Para o caso do seno puro o filtro tem uma convergência rápida e com menos de 100 iterações o erro já se aproxima de zero. 
 
-Na \cref{fig:F0_1000_10_conv} são apresentados os resultados para $ N=1000 $ e $ SNR=10 $. Podemos observar que, mesmo com um nível de ruído mais elevado, o algoritmo apresentou uma convergência rápida.
+Na \cref{fig:F0_1000_10_conv} são apresentados os resultados para $ N=1000 $ e $ SNR=10 $ queu mostrou uma convergência rápida mesmo com um nível de ruído mais elevado.
 
 \begin{figure}
 	\centering
@@ -25,9 +25,11 @@ Na \cref{fig:F0_1000_10_conv} são apresentados os resultados para $ N=1000 $ e 
 
 \subsection{FRF do filtro}
 
-Na \cref{fig:F0_1000_90_FRF_med_False} é apresentada a FRF do filtro obtido com $ SNR=90 $ considerando o último vetor de coeficientes, e na \cref{fig:F0_1000_90_FRF_med_True} é apresentada a FRF considerando o vetor obtido através do valor esperado dos coeficientes tomando por base as observações da segunda metade do vetor de dados. A \cref{fig:F0_1000_10_FRF} apresenta os resultados para $ SNR=10 $. 
+Na \cref{fig:F0_1000_90_FRF_med_False} é apresentada a FRF do filtro obtido com $ SNR=90 $ considerando o último vetor de coeficientes, e na \cref{fig:F0_1000_90_FRF_med_True} considerando o vetor obtido através do valor esperado dos coeficientes tomando por base as observações da segunda metade do vetor de dados. A \cref{fig:F0_1000_10_FRF} apresenta os resultados para $ SNR=10 $. 
 
-Podemos observar que a FRF do filtro obtido não apresenta bons resultados, aproximando-se do valor esperado apenas na frequência de excitação (\SI{34}{\radian \per \s}). Podemos notar um aumento na amplitude próxima à primeira frequência natural do sistema, mas o valor não se aproxima do esperado. Outro ponto importante é que, para este caso, a FRF do filtro não se mostrou sensível ao nível de ruído. A utilização do último vetor de coeficientes ou do valor esperado para a segunda metade do vetor de dados também não teve impacto significativo na resposta. 
+Podemos observar que a FRF do filtro obtido não apresenta bons resultados, aproximando-se do valor esperado apenas na frequência de excitação (\SI{34}{\radian \per \s}). Temos um aumento na amplitude próxima à primeira frequência natural do sistema, mas o valor não se aproxima do esperado. Outro ponto importante é que, para este caso, a FRF do filtro não se mostrou sensível ao nível de ruído.  
+
+O trabalho de \citet{castello2005experimental} mostra que a utilização do valor esperado dos coeficientes pode melhorar os resultados, mas isto não teve impacto significativo na resposta para o caso aqui analisado devido o número de amostras utilizado (1000 e 5000). A convergência, quando obtida, sempre ocorreu antes da metade do vetor de dados, de maneira que o último vetor de coeficientes e o valor esperado utilizando-se a segunda metade do vetor apresentavam sempre resultados muito parecidos.
 
 \begin{figure}
 	\centering
